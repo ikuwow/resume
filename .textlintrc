@@ -1,0 +1,9 @@
+{
+  "rules": {
+    "preset-japanese": {
+      "sentence-length": {
+        "max": 201
+      }
+    }
+  }
+}
