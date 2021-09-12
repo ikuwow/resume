@@ -1,6 +1,6 @@
 # Resume 職務経歴書
 
-2017年9月7日現在
+2017年9月12日現在
 
 ![ikuwow](ikuwow.webp)
 
@@ -11,9 +11,9 @@ Ikuo Degawa (@ikuwow）
 * Twitter https://twitter.com/ikuwow
 * GitHub https://github.com/ikuwow
 * Blog https://queryok.ikuwow.com
-* LinkedIn https://www.linkedin.com/in/ikuwow/
-* SpeakerDeck https://speakerdeck.com/ikuwow
 * Email ikuwow(at)gmail.com
+
+この職務経歴書はこちらに最新版があります: https://github.com/ikuwow/resume
 
 ## Technical Skills 技術スキル
 
@@ -38,6 +38,7 @@ Ikuo Degawa (@ikuwow）
 * フロントエンド開発の能力
   * HTML/CSS/JavaScriptを使ったフロントエンド開発の経験
   * Sass, Webpackを使ったフロントエンドプロジェクトの構築、メンテナンス
+  * 全体のパフォーマンス改善
 * その他
   * Elasticsearch, Kibana, Redshift, Tableau等を使ったデータ分析環境の構築
   * SwiftによるiOSアプリの開発経験
