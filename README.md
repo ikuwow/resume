@@ -15,7 +15,7 @@ Ikuo Degawa (@ikuwow）
 
 この職務経歴書はこちらに最新版があります: https://github.com/ikuwow/resume
 
-## Technical Skills 技術
+## 技術
 
 * WebアプリケーションにおけるSRE, DevOpsの経験
   * CircleCI, TravisCI, GitHub Actions等を用いたCI環境の構築、メンテナンス
@@ -45,7 +45,7 @@ Ikuo Degawa (@ikuwow）
   * MATLABとC言語による画像処理・音声処理プログラミング
   * WordPress等CMSのカスタマイズ
 
-## Soft Skills できること
+## できること
 
 * 職種や技術領域をまたいだ、全体最適を目指した問題解決のアプローチ
 * GitHubやドキュメンテーションツール、Slack等によるスムーズな非同期コミュニケーション
@@ -53,7 +53,7 @@ Ikuo Degawa (@ikuwow）
 * 英語の読み書き、リスニング
 * OSSへの貢献
 
-## Experience 職務経歴
+## 職務経歴
 
 ### 株式会社エス・エム・エス
 
@@ -141,7 +141,7 @@ Ikuo Degawa (@ikuwow）
 * iOSアプリの新規開発
 * エンジニアセミナー講師
 
-## Writing 執筆
+## 執筆
 
 * O'Reilly [進化的アーキテクチャ](https://www.oreilly.co.jp/books/9784873118567/) 翻訳レビュー 2019年
 * SoftwareDesign連載 アプリエンジニアのための［インフラ］入門 全6回 2016年
@@ -150,14 +150,14 @@ Ikuo Degawa (@ikuwow）
 * Ikuo Degawa, Taichi Yoshida, Kazu Mishiba, Masaaki Ikehara, Single Image Super Resolution by l2 Approximation without Learning in International Workshop on Advanced Image Technology (IWAIT) , Jan. 2014
 * Ikuo Degawa, Kei Sato, and Masaaki Ikehara, Multipitch estimation and instrument recognition by exemplar-based sparse representation, Proc. of IEEE ACSSC 2013, Pacific Grove, CA, Nov. 2013.
 
-## Certifications 資格
+## 資格
 
 * LPIC Level 2 2018年
 * 日商簿記 2級 2016年
 * 情報処理技術者試験 ネットワークスペシャリスト 2015年
 * TOEIC Score 860 2013年
 
-## Education 学歴
+## 学歴
 
 * 2015年3月 慶應義塾大学大学院理工学研究科 総合デザイン工学専攻 卒業
 * 2013年3月 慶應義塾大学理工学部 電子工学科 卒業
