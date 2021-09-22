@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "lint": "textlint .",
-    "pdf": "md-to-pdf README.md --config-file md-to-pdf.json"
+    "pdf": "md-to-pdf README.md --config-file md-to-pdf.json",
+    "postpdf": "mv README.pdf ikuwow_resume.pdf"
   },
   "repository": {
     "type": "git",

@@ -1,0 +1,22 @@
+name: Build pdf on release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+      - run: npm ci
+      - run: npm run pdf
+      - uses: softprops/action-gh-release@v1
+        with:
+          files: ikuwow_resume.pdf
+        env:
+          token: ${{ secrets.GITHUB_TOKEN }}
