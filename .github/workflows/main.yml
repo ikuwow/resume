@@ -17,7 +17,6 @@ jobs:
         with:
           name: resume
           path: ikuwow_resume.pdf
-          retention-days: 7
   lint:
     runs-on: ubuntu-latest
     steps:
