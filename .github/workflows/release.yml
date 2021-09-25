@@ -1,4 +1,4 @@
-name: Build pdf on release
+name: Create release with built pdf
 
 on:
   push:
