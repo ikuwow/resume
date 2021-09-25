@@ -1,5 +1,4 @@
 {
-  "stylesheet": ["style.css"],
   "pdf_options": {
     "format": "a4",
     "margin": "20mm 20mm",
