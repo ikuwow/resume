@@ -1,6 +1,12 @@
-@import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css);
-
 body {
-  font-size: 11px;
-  font-family: "Noto Sans Japanese", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-size: 10.5px;
+  font-family: "Hiragino Sans", sans-serif;
+}
+
+img[src="ikuwow.webp"] {
+  width: 128px;
+}
+
+.page-break {
+  page-break-after: always;
 }

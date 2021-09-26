@@ -45,6 +45,8 @@ Ikuo Degawa (@ikuwow）
   * MATLABとC言語による画像処理・音声処理プログラミング
   * WordPress等CMSのカスタマイズ
 
+<div class="page-break"></div>
+
 ## できること
 
 * 職種や技術領域をまたいだ、全体最適を目指した問題解決のアプローチ
@@ -102,6 +104,8 @@ Ikuo Degawa (@ikuwow）
 * AWSサービスを使ったセキュリティの要件の決定と実装
 * Ruby on Railsアプリケーションのパフォーマンス改善サポート
 * Ruby on Railsアプリケーションの管理面の機能開発
+
+<div class="page-break"></div>
 
 ### レバレジーズ株式会社
 
