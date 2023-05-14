@@ -6,3 +6,8 @@ updates:
       interval: "monthly"
     assignees:
       - ikuwow
+  - package-ecosystem: "github-actions"
+    schedule:
+      interval: "monthly"
+    assignees:
+      - ikuwow
