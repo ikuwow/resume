@@ -14,7 +14,7 @@
   "homepage": "https://github.com/ikuwow/resume#readme",
   "dependencies": {
     "md-to-pdf": "^5.2.4",
-    "textlint": "^13.3.3",
+    "textlint": "^13.4.1",
     "textlint-rule-preset-japanese": "^8.0.0"
   }
 }
