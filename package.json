@@ -5,7 +5,9 @@
   "scripts": {
     "lint": "textlint .",
     "pdf": "md-to-pdf resume.ja.md --config-file md-to-pdf.json",
-    "postpdf": "mv resume.ja.pdf ikuwow_resume.ja.pdf"
+    "postpdf": "mv resume.ja.pdf ikuwow_resume.ja.pdf",
+    "pdf-en": "md-to-pdf resume.en.md --config-file md-to-pdf.json",
+    "postpdf-en": "mv resume.en.pdf ikuwow_resume.en.pdf"
   },
   "repository": {
     "type": "git",

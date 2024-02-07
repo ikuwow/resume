@@ -20,3 +20,9 @@ jobs:
           files: ikuwow_resume.ja.pdf
         env:
           token: ${{ secrets.GITHUB_TOKEN }}
+      - run: npm run pdf-en
+      - uses: softprops/action-gh-release@v1
+        with:
+          files: ikuwow_resume.en.pdf
+        env:
+          token: ${{ secrets.GITHUB_TOKEN }}
