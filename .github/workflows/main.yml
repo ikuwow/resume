@@ -14,8 +14,8 @@ jobs:
       - run: npm run pdf
       - uses: actions/upload-artifact@v4
         with:
-          name: resume
-          path: ikuwow_resume.pdf
+          name: resume.ja
+          path: ikuwow_resume.ja.pdf
   lint:
     runs-on: macos-11
     steps:
