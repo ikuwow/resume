@@ -15,13 +15,13 @@ jobs:
           node-version: 20.x
       - run: npm ci
       - run: npm run pdf
-      - uses: softprops/action-gh-release@v1
+      - uses: softprops/action-gh-release@v2
         with:
           files: ikuwow_resume.ja.pdf
         env:
           token: ${{ secrets.GITHUB_TOKEN }}
       - run: npm run pdf-en
-      - uses: softprops/action-gh-release@v1
+      - uses: softprops/action-gh-release@v2
         with:
           files: ikuwow_resume.en.pdf
         env:
