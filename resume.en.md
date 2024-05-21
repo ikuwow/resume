@@ -7,7 +7,7 @@ As of May 21, 2024
 
 Ikuo Degawa (@ikuwow)
 
-Born in 1990, residing in Kanagawa Prefecture, Japan
+Born in 1990, lives in Kanagawa, Japan
 
 * Twitter: https://twitter.com/ikuwow
 * GitHub: https://github.com/ikuwow
@@ -15,6 +15,9 @@ Born in 1990, residing in Kanagawa Prefecture, Japan
 * Email: ikuwow(at)gmail.com
 
 The latest version of this resume is available on GitHub: https://github.com/ikuwow/resume
+
+| The document is based on machine translation. In case of conflict between the translation and the original Japanese version, the Japanese version will prevail. |
+|:----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 ## Skills
 
@@ -62,6 +65,8 @@ The latest version of this resume is available on GitHub: https://github.com/iku
 
 ## Work Experience
 
+<!-- checked -->
+
 ### ZOZO, Inc.
 
 Worked as a full-time employee from December 2021 to April 2023 in a fully remote capacity
@@ -85,7 +90,7 @@ Worked as a full-time employee from December 2021 to April 2023 in a fully remot
 * Catching up on domain knowledge and translating it into requirements
 * Conducting PoC, designing, and building data integration methods using Kafka (Amazon MSK, etc.)
 
-### TeamUp
+### TeamUp Inc.
 
 Worked as a freelance engineer from July 2021 to June 2022
 
