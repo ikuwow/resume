@@ -1,5 +1,6 @@
-
 # Resume
+
+**The document is based on machine translation. In case of conflict between the translation and the original Japanese version, the Japanese version will prevail.**
 
 As of May 21, 2024
 
@@ -15,9 +16,6 @@ Born in 1990, lives in Kanagawa, Japan
 * Email: ikuwow(at)gmail.com
 
 The latest version of this resume is available on GitHub: https://github.com/ikuwow/resume
-
-| The document is based on machine translation. In case of conflict between the translation and the original Japanese version, the Japanese version will prevail. |
-|:----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 ## Skills
 
