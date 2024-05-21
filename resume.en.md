@@ -63,8 +63,6 @@ The latest version of this resume is available on GitHub: https://github.com/iku
 
 ## Work Experience
 
-<!-- checked -->
-
 ### ZOZO, Inc.
 
 Worked as a full-time employee from December 2021 to April 2023 in a fully remote capacity
@@ -142,18 +140,18 @@ Worked as an intern from September 2013 to March 2015
 
 ## Publications
 
-* O'Reilly [Evolutionary Architecture](https://www.oreilly.co.jp/books/9784873118567/) translation review, 2019
-* SoftwareDesign series Introduction to [Infrastructure] for Application Engineers, all 6 parts, 2016
-* gihyo.jp [Best Practices for Building Development Environments You Can Use Right Away](https://gihyo.jp/dev/serial/01/howto-env-conf), 2016
-* gihyo.jp [Programming Fundamentals You Will Treasure Forever](https://gihyo.jp/dev/serial/01/js-foundation), (3rd, 5th, 7th parts), 2015
+* O'Reilly [進化的アーキテクチャ](https://www.oreilly.co.jp/books/9784873118567/) translation review, 2019
+* SoftwareDesign series "アプリエンジニアのための［インフラ］入門", all 6 parts, 2016
+* gihyo.jp [あとはコードを書くだけ，はじめに作る開発環境構築ベストプラクティス](https://gihyo.jp/dev/serial/01/howto-env-conf), 2016
+* gihyo.jp [聞いたら一生の宝，プログラミングの基礎の基礎](https://gihyo.jp/dev/serial/01/js-foundation), (3rd, 5th, 7th parts), 2015
 * Ikuo Degawa, Taichi Yoshida, Kazu Mishiba, Masaaki Ikehara, Single Image Super Resolution by l2 Approximation without Learning in International Workshop on Advanced Image Technology (IWAIT), Jan. 2014
 * Ikuo Degawa, Kei Sato, and Masaaki Ikehara, Multipitch estimation and instrument recognition by exemplar-based sparse representation, Proc. of IEEE ACSSC 2013, Pacific Grove, CA, Nov. 2013.
 
 ## Certifications
 
 * LPIC Level 2, 2018
-* The Japan Chamber of Commerce and Industry Bookkeeping Level 2, 2016
-* Network Specialist Examination, 2015
+* 日商簿記 (The Japan Chamber of Commerce and Industry Bookkeeping) Level 2, 2016
+* 情報処理技術者試験 ネットワークスペシャリスト (Network Specialist Examination), 2015
 * TOEIC Score 860, 2013
 
 ## Education
