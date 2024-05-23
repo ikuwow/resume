@@ -5,5 +5,8 @@
     "margin": "20mm 20mm",
     "headerTemplate": "<style> section { margin: 0 auto; font-family: system-ui; font-size: 10px; } </style>",
     "footerTemplate": "<section> <div> Page <span class=\"pageNumber\"></span> of <span class=\"totalPages\"></span> </div></section>"
+  },
+  "launch_options" : {
+    "headless": "new"
   }
 }
