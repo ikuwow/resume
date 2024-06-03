@@ -65,7 +65,7 @@ The latest version of this resume is available on GitHub: https://github.com/iku
 
 ### ZOZO, Inc.
 
-Worked as a full-time employee from December 2021 to April 2023 in a fully remote capacity
+Worked as a full-time employee from December 2021 to April 2024 in a fully remote capacity
 
 #### Platform Services SRE Block, Front SRE Block
 
