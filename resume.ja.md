@@ -200,7 +200,7 @@ Ikuo Degawa (@ikuwow）
 
 ## 資格
 
-* LPIC Level 2 2018年
+* [LPIC-3 305 (Virtualization and Containerization)](https://people.lpi.org/m/LPI000286814) 2024年
 * 日商簿記 2級 2016年
 * 情報処理技術者試験 ネットワークスペシャリスト 2015年
 * TOEIC Score 860 2013年

@@ -149,7 +149,7 @@ Worked as an intern from September 2013 to March 2015
 
 ## Certifications
 
-* LPIC Level 2, 2018
+* [LPIC-3 305 (Virtualization and Containerization)](https://people.lpi.org/m/LPI000286814), 2024
 * 日商簿記 (The Japan Chamber of Commerce and Industry Bookkeeping) Level 2, 2016
 * 情報処理技術者試験 ネットワークスペシャリスト (Network Specialist Examination), 2015
 * TOEIC Score 860, 2013
