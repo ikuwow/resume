@@ -63,6 +63,10 @@ The latest version of this resume is available on GitHub: https://github.com/iku
 
 ## Work Experience
 
+### フリーランス
+
+Working as a freelance Infrastructure Engineer and SRE since June 2024.
+
 ### ZOZO, Inc.
 
 Worked as a full-time employee from December 2021 to April 2024 in a fully remote capacity
