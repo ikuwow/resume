@@ -31,13 +31,13 @@ The latest version of this resume is available on GitHub: https://github.com/iku
   * Basic knowledge of networking and infrastructure technology
   * Utilizing cloud platforms like AWS, GCP
   * Building and operating infrastructure using IaC with Terraform, Ansible, Chef, etc.
-  * Experience with Docker and Kubernetes in production environments
+  * Experience with Docker, Kubernetes and ECS in production environments
   * Designing, building, and operating microservice architectures with Kubernetes and Istio
   * Operating applications in a microservices environment
   * Designing, improving performance, and managing RDBs like PostgreSQL, MySQL
   * Building office networks
 * Backend development skills
-  * Experience in programming languages like PHP, Ruby, Java, JavaScript
+  * Experience in programming languages like PHP, Ruby, Java, JavaScript, Golang
   * Experience with frameworks like CakePHP, Ruby on Rails, Spring
 * Frontend development skills
   * Experience in frontend development using HTML/CSS/JavaScript

@@ -29,13 +29,13 @@ Ikuo Degawa (@ikuwow）
   * ネットワークやインフラ技術の基礎的な知識
   * AWS, GCP等のクラウドプラットフォームの活用
   * Terraform、Ansible、Chef等を使ったIaCによる構成管理の環境の構築、運用
-  * 本番環境におけるDocker, Kubernetesの経験
+  * 本番環境におけるDocker, Kubernetes, ECSの経験
   * Kubernetes・Istioを使ったマイクロサービスアーキテクチャの設計・構築・運用
   * マイクロサービス環境でのアプリケーションの運用
   * PostgreSQL, MySQL等のRDBの設計、パフォーマンス改善、管理
   * オフィスネットワーク構築
 * バックエンド開発の能力
-  * PHP, Ruby, Java, JavaScript等のプログラミング言語の経験
+  * PHP, Ruby, Java, JavaScript, Golang等のプログラミング言語の経験
   * CakePHP, Ruby on Rails, Spring等のフレームワークの経験
 * フロントエンド開発の能力
   * HTML/CSS/JavaScriptを使ったフロントエンド開発の経験
