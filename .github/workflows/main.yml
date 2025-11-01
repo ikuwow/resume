@@ -12,12 +12,12 @@ jobs:
           node-version-file: "package.json"
       - run: npm ci
       - run: npm run pdf
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v5
         with:
           name: resume.ja
           path: ikuwow_resume.ja.pdf
       - run: npm run pdf-en
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v5
         with:
           name: resume.en
           path: ikuwow_resume.en.pdf
