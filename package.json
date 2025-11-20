@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/ikuwow/resume#readme",
   "dependencies": {
-    "md-to-pdf": "^5.2.4",
+    "md-to-pdf": "^5.2.5",
     "textlint": "^15.2.3",
     "textlint-rule-preset-japanese": "^10.0.4"
   }
