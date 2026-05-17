@@ -4,7 +4,6 @@
   "engines": {
     "node": "22"
   },
-  "main": "index.js",
   "scripts": {
     "lint": "textlint .",
     "pdf": "md-to-pdf resume.ja.md --config-file md-to-pdf.json",
