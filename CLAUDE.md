@@ -21,22 +21,38 @@ This is ikuwow's resume repository that generates both Japanese and English resu
 
 ## Repository Structure
 
-- `resume.ja.md` - Japanese resume source
-- `resume.en.md` - English resume source
+- `resume.ja.md` - Japanese resume source (master)
+- `resume.en.md` - English resume source (machine-translated from `resume.ja.md`)
 - `style.css` - Custom styling for PDF generation
 - `md-to-pdf.json` - PDF generation configuration
 - `.textlintrc` - Japanese text linting rules configuration
 
+## Authoring Rules
+
+These constraints exist in the content itself or in the publishing flow. Follow them when editing the resume Markdown.
+
+- `resume.ja.md` is the source of truth. `resume.en.md:3` declares that in case of conflict the Japanese version prevails. Any change to `resume.ja.md` must include the corresponding update to `resume.en.md` in the same PR.
+- The "as of" date at the top of each file must be updated to today's date whenever the body is changed:
+  - `resume.ja.md:3` — `YYYY年MM月DD日現在`
+  - `resume.en.md:5` — `As of Month DD, YYYY`
+- The email address is intentionally obfuscated as `ikuwow(at)gmail.com` in both files. Do not change `(at)` to `@`.
+- Do not commit generated PDFs or local build artifacts. They are covered by `.gitignore` (`*.pdf`).
+- `.textlintrc` sets `sentence-length.max` to 201; the value is intentional. Do not lower it to "fix" long-sentence warnings — rewrite the sentence instead.
+
 ## Development Workflow
 
-1. Edit the appropriate Markdown file (resume.ja.md or resume.en.md)
-2. Use watch commands during editing for live preview
-3. Run `npm run lint` before committing to ensure text quality
-4. Generate final PDFs with `npm run pdf` and `npm run pdf-en`
+1. Edit `resume.ja.md` first, then mirror the change into `resume.en.md`.
+2. Update the "as of" date in both files.
+3. Run `npm run lint` before committing. Watch-mode commands (`pdf-watch`, `pdf-en-watch`) are long-running processes; do not invoke them from an automated agent — they are for humans editing locally.
+4. PDF generation is normally handled by CI (see below). Run `npm run pdf` / `npm run pdf-en` locally only when you need to verify the rendered output yourself.
+
+## Release Process
+
+Pushing a tag matching `v*` (e.g., `v2026.05.17`) triggers `.github/workflows/release.yml`, which builds both PDFs and attaches them to a GitHub Release. The README links (`releases/latest/download/...`) point at the latest release, so tagging is the publishing step.
 
 ## GitHub Actions
 
-The repository uses GitHub Actions for:
-- Automatic PDF generation on push
-- Linting checks
-- Creating releases with PDF artifacts
+- `.github/workflows/main.yml` — On every push: builds both PDFs (macOS runner, required for Hiragino Sans) and uploads them as artifacts; runs textlint on a Linux runner.
+- `.github/workflows/release.yml` — On `v*` tag push: builds both PDFs and attaches them to a GitHub Release.
+- `.github/workflows/dependabot-auto-merge.yml` — Auto-merges Dependabot PRs for `semver-patch` and `semver-minor` updates. Major updates still require manual review.
+- `.github/dependabot.yml` — Monthly schedule for npm and GitHub Actions ecosystems.
