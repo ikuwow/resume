@@ -68,9 +68,25 @@ Ikuo Degawa (@ikuwow）
 
 ## 職務経歴
 
-### フリーランス
+### 株式会社tacoms
 
-2024年6月からフリーのインフラエンジニア、SREとして活動
+業務委託として2024年6月〜2025年7月、正社員として2025年8月から勤務
+
+#### SREメンバー/テックリード
+
+* ECS Fargate, Aurora MySQL/PostgreSQL, RDS Proxy, DynamoDB, SQS/SNS, Lambdaの運用
+* データベース負荷の削減
+* 新売上集計機能の実装
+* 新サービスインフラ構築・運用
+* CIOps（GitHub Actions → ECR → ECS）からGitOps (PipeCD) への移行設計・実装
+* PipeCDを用いたcanary release / progressive deliveryの導入
+
+#### Camel team
+
+* レストラン向けマルチテナント型注文管理SaaS「Camel」の開発・運用 (Golang等)
+* SLO/SLI基盤の構築、運用 (Datadog, AWS)
+* インフラコスト最適化
+* 他製品からのリプレイスの推進
 
 ### 株式会社ZOZO
 
