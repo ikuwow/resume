@@ -88,6 +88,12 @@ Ikuo Degawa (@ikuwow）
 * インフラコスト最適化
 * 他製品からのリプレイスの推進
 
+#### その他
+
+* テックブログ執筆
+  * [tacoms テックブログ](https://tacoms-inc.hatenablog.com/archive/author/ikuwow)
+  * [旧tacoms テックブログ](https://zenn.dev/p/tacoms)
+
 ### 株式会社ZOZO
 
 正社員として2021年12月〜2024年4月の間フルリモートで勤務
