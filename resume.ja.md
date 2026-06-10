@@ -4,7 +4,7 @@
 
 ![ikuwow](ikuwow.webp)
 
-Ikuo Degawa (@ikuwow）
+Ikuo Degawa (@ikuwow)
 
 1990年生まれ 神奈川県在住
 
@@ -21,7 +21,6 @@ Ikuo Degawa (@ikuwow）
   * CircleCI, TravisCI, GitHub Actions等を用いたCI/CD環境の構築、メンテナンス
   * PipeCD等を用いたGitOps・プログレッシブデリバリーの設計・運用
   * GitHub等を用いた開発プロジェクトの管理
-  * SLIの決定と実装、SLOの策定
   * 開発チームの体制サポート、Enabling SREの実践
   * アプリケーションをまたいだ問題解決とプロジェクト推進
   * 障害対応におけるリーダーシップ
@@ -46,7 +45,7 @@ Ikuo Degawa (@ikuwow）
   * パフォーマンスモニタリングと改善
   * RUMツールを用いた観測の仕組みの構築
 * その他
-  * Elasticsearch, Kibana, Redshift, Tableau等を使ったデータ分析環境の構築
+  * Elasticsearch, Kibana, Redshift, BigQuery, Tableau等を使ったデータ分析環境の構築
   * SwiftによるiOSアプリの開発経験
   * MATLABとC言語による画像処理・音声処理プログラミング
   * WordPress等CMSのカスタマイズ
@@ -114,7 +113,7 @@ Ikuo Degawa (@ikuwow）
 * Java、NodeJSアプリケーションの運用
 * Terraformを用いたSentry, Datadog, PagerDuty等SaaSの管理
 * SLOに基づいたサービス信頼性の担保
-* GitHub Acitons等を用いたMono repoの並行パイプラインを実現するワークフローの構築
+* GitHub Actions等を用いたMono repoの並行パイプラインを実現するワークフローの構築
 * Flagger、Flux等の利用拡大
 * GitHub Projectsの採用
 * オンコール担当、障害対応
@@ -123,7 +122,7 @@ Ikuo Degawa (@ikuwow）
 #### 基幹システムリプレイスのリードSRE
 
 * ドメイン知識のキャッチアップと要件への落とし込み
-* Kafka (Amazon MSK等）を用いたデータ連携方式のPoC、設計、構築
+* Kafka (Amazon MSK等)を用いたデータ連携方式のPoC、設計、構築
 * タスク/スケジュールの管理
 * RDBの論理設計
 * リリースフローの構築と開発チームへのレクチャー
