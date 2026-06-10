@@ -1,6 +1,6 @@
 # 職務経歴書
 
-2026年5月現在
+2026年6月現在
 
 ![ikuwow](ikuwow.webp)
 
@@ -76,12 +76,13 @@ Ikuo Degawa (@ikuwow）
 
 * ECS Fargate, Aurora, SQS/SNS, Lambda等の運用
 * Aurora MySQLのパフォーマンス最適化
-* データ集計集計基盤の設計/構築
+* データ集計基盤の設計/構築
 * 新サービスインフラ構築・運用
 * CIOps（GitHub Actions → ECR → ECS）からGitOps (PipeCD) への移行設計・実装
 * Datadogを用いた可観測性を担う仕組みの構築、推進
 * TiDB移行調査/検討
 * PipeCDを用いたcanary release / progressive deliveryの導入
+* 外部POS事業者との連携漏れを検知する基盤の設計、構築 (Lambda, EventBridge, Datadog)
 * 顧客のキャンペーンに伴う負荷対策
 * AI活用のための基盤構築
 * 各種障害対応、オンコール
