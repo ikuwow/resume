@@ -70,26 +70,33 @@ Ikuo Degawa (@ikuwow）
 
 ### 株式会社tacoms
 
-業務委託として2024年6月〜2025年7月、正社員として2025年8月から勤務
+業務委託として2024年6月〜2025年7月、正社員として2025年8月から現在まで勤務
 
 #### SREメンバー/テックリード
 
-* ECS Fargate, Aurora MySQL/PostgreSQL, RDS Proxy, DynamoDB, SQS/SNS, Lambdaの運用
-* データベース負荷の削減
-* 新売上集計機能の実装
+* ECS Fargate, Aurora, SQS/SNS, Lambda等の運用
+* Aurora MySQLのパフォーマンス最適化
+* データ集計集計基盤の設計/構築
 * 新サービスインフラ構築・運用
 * CIOps（GitHub Actions → ECR → ECS）からGitOps (PipeCD) への移行設計・実装
+* Datadogを用いた可観測性を担う仕組みの構築、推進
+* TiDB移行調査/検討
 * PipeCDを用いたcanary release / progressive deliveryの導入
+* 顧客のキャンペーンに伴う負荷対策
+* AI活用のための基盤構築
+* 各種障害対応、オンコール
 
-#### Camel team
+#### Camelの開発/運用
 
-* レストラン向けマルチテナント型注文管理SaaS「Camel」の開発・運用 (Golang等)
-* SLO/SLI基盤の構築、運用 (Datadog, AWS)
+* SLO/SLIの設計、計測基盤の構築、運用 (Datadog, AWS)
+* Golangバックエンドアプリケーションの開発、運用
+* 外部連携の可用性等の計測の仕組みの構築
 * インフラコスト最適化
 * 他製品からのリプレイスの推進
 
-#### その他
+#### 共通
 
+* GitHub, Datadog等の社内基盤システムの管理者
 * テックブログ執筆
   * [tacoms テックブログ](https://tacoms-inc.hatenablog.com/archive/author/ikuwow)
   * [旧tacoms テックブログ](https://zenn.dev/p/tacoms)
