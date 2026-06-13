@@ -97,9 +97,6 @@ Ikuo Degawa (@ikuwow)
 #### 共通
 
 * GitHub, Datadog等の社内基盤システムの管理者
-* テックブログ執筆
-  * [tacoms テックブログ](https://tacoms-inc.hatenablog.com/archive/author/ikuwow)
-  * [旧tacoms テックブログ](https://zenn.dev/p/tacoms)
 
 ### 株式会社ZOZO
 
@@ -231,6 +228,8 @@ Ikuo Degawa (@ikuwow)
 
 ## 執筆
 
+* [tacoms テックブログ](https://tacoms-inc.hatenablog.com/archive/author/ikuwow) テックブログ執筆 2024年〜
+* [旧tacoms テックブログ](https://zenn.dev/p/tacoms) テックブログ執筆
 * O'Reilly [進化的アーキテクチャ](https://www.oreilly.co.jp/books/9784873118567/) 翻訳レビュー 2019年
 * SoftwareDesign連載 アプリエンジニアのための［インフラ］入門 全6回 2016年
 * gihyo.jp [あとはコードを書くだけ，はじめに作る開発環境構築ベストプラクティス](https://gihyo.jp/dev/serial/01/howto-env-conf) 2016年
