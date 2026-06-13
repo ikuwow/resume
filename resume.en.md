@@ -10,7 +10,7 @@ Ikuo Degawa (@ikuwow)
 
 Born in 1990, lives in Kanagawa, Japan
 
-* Twitter: https://twitter.com/ikuwow
+* X: https://x.com/ikuwow
 * GitHub: https://github.com/ikuwow
 * Blog: https://queryok.ikuwow.com
 * Email: ikuwow(at)gmail.com
@@ -81,14 +81,14 @@ Worked as a contractor from June 2024 to July 2025, then as a full-time employee
 * Building and operating infrastructure for new services
 * Designing and implementing migration from CIOps (GitHub Actions → ECR → ECS) to GitOps (PipeCD)
 * Building and promoting observability tooling using Datadog
-* Investigating and considering TiDB migration
+* Evaluating TiDB migration
 * Introducing canary release / progressive delivery using PipeCD
 * Designing and building infrastructure for detecting integration gaps with external POS providers (Lambda, EventBridge, Datadog)
 * Handling traffic spikes from customer campaigns
 * Building infrastructure for AI utilization
 * Various incident response and on-call
 
-#### Camel development and operation
+#### Development and operation of "Camel", a restaurant order management SaaS
 
 * Designing SLO/SLI, building and operating measurement infrastructure (Datadog, AWS)
 * Developing and operating Golang backend applications
@@ -96,12 +96,9 @@ Worked as a contractor from June 2024 to July 2025, then as a full-time employee
 * Optimizing infrastructure costs
 * Promoting migration from other products
 
-#### Common
+#### Cross-functional
 
 * Administrator of internal infrastructure systems like GitHub, Datadog
-* Writing tech blog
-  * [tacoms tech blog](https://tacoms-inc.hatenablog.com/archive/author/ikuwow)
-  * [Former tacoms tech blog](https://zenn.dev/p/tacoms)
 
 ### ZOZO, Inc.
 
@@ -233,10 +230,12 @@ Worked as an intern from September 2013 to March 2015
 
 ## Publications
 
-* O'Reilly [進化的アーキテクチャ](https://www.oreilly.co.jp/books/9784873118567/) translation review, 2019
-* SoftwareDesign series "アプリエンジニアのための［インフラ］入門", all 6 parts, 2016
-* gihyo.jp [あとはコードを書くだけ，はじめに作る開発環境構築ベストプラクティス](https://gihyo.jp/dev/serial/01/howto-env-conf), 2016
-* gihyo.jp [聞いたら一生の宝，プログラミングの基礎の基礎](https://gihyo.jp/dev/serial/01/js-foundation), (3rd, 5th, 7th parts), 2015
+* [tacoms tech blog](https://tacoms-inc.hatenablog.com/archive/author/ikuwow) Tech blog articles, 2024–
+* [Former tacoms tech blog](https://zenn.dev/p/tacoms) Tech blog articles
+* O'Reilly [進化的アーキテクチャ (Building Evolutionary Architectures)](https://www.oreilly.co.jp/books/9784873118567/) translation review, 2019
+* SoftwareDesign series "アプリエンジニアのための［インフラ］入門 (Infrastructure Basics for Application Engineers)", all 6 parts, 2016
+* gihyo.jp [あとはコードを書くだけ，はじめに作る開発環境構築ベストプラクティス (Development Environment Setup Best Practices)](https://gihyo.jp/dev/serial/01/howto-env-conf), 2016
+* gihyo.jp [聞いたら一生の宝，プログラミングの基礎の基礎 (Programming Fundamentals)](https://gihyo.jp/dev/serial/01/js-foundation), (3rd, 5th, 7th parts), 2015
 * Ikuo Degawa, Taichi Yoshida, Kazu Mishiba, Masaaki Ikehara, Single Image Super Resolution by l2 Approximation without Learning in International Workshop on Advanced Image Technology (IWAIT), Jan. 2014
 * Ikuo Degawa, Kei Sato, and Masaaki Ikehara, Multipitch estimation and instrument recognition by exemplar-based sparse representation, Proc. of IEEE ACSSC 2013, Pacific Grove, CA, Nov. 2013.
 
