@@ -1,14 +1,14 @@
 # 職務経歴書
 
-2024年5月21日現在
+2026年6月現在
 
 ![ikuwow](ikuwow.webp)
 
-Ikuo Degawa (@ikuwow）
+Ikuo Degawa (@ikuwow)
 
 1990年生まれ 神奈川県在住
 
-* Twitter https://twitter.com/ikuwow
+* X https://x.com/ikuwow
 * GitHub https://github.com/ikuwow
 * Blog https://queryok.ikuwow.com
 * Email ikuwow(at)gmail.com
@@ -19,12 +19,14 @@ Ikuo Degawa (@ikuwow）
 
 * WebアプリケーションにおけるSRE, DevOpsの経験
   * CircleCI, TravisCI, GitHub Actions等を用いたCI/CD環境の構築、メンテナンス
+  * PipeCD等を用いたGitOps・プログレッシブデリバリーの設計・運用
   * GitHub等を用いた開発プロジェクトの管理
-  * SLIの決定と実装、SLOの策定
   * 開発チームの体制サポート、Enabling SREの実践
   * アプリケーションをまたいだ問題解決とプロジェクト推進
   * 障害対応におけるリーダーシップ
   * 50%ルール、ポストモーテム等のSREプラクティスの実施
+  * SLO/SLI, エラーバジェットポリシーの整備と運用
+  * Datadog等を用いた可観測性のための仕組みの設計・構築
 * インフラの構築管理、ミドルウェアの管理の経験
   * ネットワークやインフラ技術の基礎的な知識
   * AWS, GCP等のクラウドプラットフォームの活用
@@ -41,8 +43,9 @@ Ikuo Degawa (@ikuwow）
   * HTML/CSS/JavaScriptを使ったフロントエンド開発の経験
   * Sass, Webpackを使ったフロントエンドプロジェクトの構築、メンテナンス
   * パフォーマンスモニタリングと改善
+  * RUMツールを用いたフロントエンド観測の仕組みの構築
 * その他
-  * Elasticsearch, Kibana, Redshift, Tableau等を使ったデータ分析環境の構築
+  * Elasticsearch, Kibana, Redshift, BigQuery, Tableau等を使ったデータ分析環境の構築
   * SwiftによるiOSアプリの開発経験
   * MATLABとC言語による画像処理・音声処理プログラミング
   * WordPress等CMSのカスタマイズ
@@ -52,8 +55,10 @@ Ikuo Degawa (@ikuwow）
 ## できること
 
 * 常にプロジェクトやサービスの目的を見据えて行動する
-* 職種や技術領域をまたいだ、全体最適を目指した問題解決
+* 職種や技術領域をまたいだ、技術・組織・コストのトレードオフを踏まえた全体最適な問題解決
 * 手を動かして技術検証/PoCができる
+* AIコーディングエージェントの活用、環境整備
+* AIエージェントを前提とした開発プロセスの設計と導入
 * GitHubやドキュメンテーションツール、メッセージングツールによるスムーズな非同期コミュニケーション
 * モラルとユーザーへの価値を大事にする
 * 英語の読み書き、リスニング
@@ -61,9 +66,37 @@ Ikuo Degawa (@ikuwow）
 
 ## 職務経歴
 
-### フリーランス
+### 株式会社tacoms
 
-2024年6月からフリーのインフラエンジニア、SREとして活動
+業務委託として2024年6月〜2025年7月、正社員として2025年8月から現在まで勤務
+
+#### SREメンバー/テックリード
+
+* ECS Fargate, Aurora, SQS/SNS, Lambdaを利用したAWSサービス基盤の運用
+* Aurora MySQLのパフォーマンス最適化
+* BigQuery等を用いたデータ集計基盤の設計/構築
+* 新規サービスインフラ構築・運用
+* CIOps（GitHub Actions → ECR → ECS）からGitOps (PipeCD) への移行設計・実装
+* Datadogを用いた可観測性を担う仕組みの構築、推進
+* TiDB移行調査/検討
+* PipeCDを用いたcanary release / progressive deliveryの導入
+* 外部サービスとの連携エラー検知基盤の設計、構築 (Lambda, EventBridge, Datadog)
+* 顧客のキャンペーンに伴う負荷対策
+* AI活用のための基盤構築
+* 各種障害対応、オンコール
+
+#### 飲食店向け注文管理 SaaS「Camel」の開発/運用
+
+* SLO/SLIの設計、計測基盤の構築、運用 (Datadog, AWS)
+* Golangバックエンドアプリケーションの開発、運用
+* 外部連携の可用性等の計測の仕組みの構築
+* インフラコスト最適化
+* 他製品からのリプレイスの推進
+* 大手企業導入に伴う機能改修
+
+#### 共通
+
+* GitHub, Datadog等の社内基盤システムの管理者
 
 ### 株式会社ZOZO
 
@@ -77,7 +110,7 @@ Ikuo Degawa (@ikuwow）
 * Java、NodeJSアプリケーションの運用
 * Terraformを用いたSentry, Datadog, PagerDuty等SaaSの管理
 * SLOに基づいたサービス信頼性の担保
-* GitHub Acitons等を用いたMono repoの並行パイプラインを実現するワークフローの構築
+* GitHub Actions等を用いたMono repoの並行パイプラインを実現するワークフローの構築
 * Flagger、Flux等の利用拡大
 * GitHub Projectsの採用
 * オンコール担当、障害対応
@@ -86,7 +119,7 @@ Ikuo Degawa (@ikuwow）
 #### 基幹システムリプレイスのリードSRE
 
 * ドメイン知識のキャッチアップと要件への落とし込み
-* Kafka (Amazon MSK等）を用いたデータ連携方式のPoC、設計、構築
+* Kafka (Amazon MSK等)を用いたデータ連携方式のPoC、設計、構築
 * タスク/スケジュールの管理
 * RDBの論理設計
 * リリースフローの構築と開発チームへのレクチャー
@@ -195,6 +228,8 @@ Ikuo Degawa (@ikuwow）
 
 ## 執筆
 
+* [tacoms テックブログ](https://tacoms-inc.hatenablog.com/archive/author/ikuwow) テックブログ執筆 2024年〜
+* [旧tacoms テックブログ](https://zenn.dev/p/tacoms) テックブログ執筆
 * O'Reilly [進化的アーキテクチャ](https://www.oreilly.co.jp/books/9784873118567/) 翻訳レビュー 2019年
 * SoftwareDesign連載 アプリエンジニアのための［インフラ］入門 全6回 2016年
 * gihyo.jp [あとはコードを書くだけ，はじめに作る開発環境構築ベストプラクティス](https://gihyo.jp/dev/serial/01/howto-env-conf) 2016年

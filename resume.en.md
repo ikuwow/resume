@@ -2,7 +2,7 @@
 
 **The document is based on machine translation. In case of conflict between the translation and the original Japanese version, the Japanese version will prevail.**
 
-As of May 21, 2024
+As of June 2026
 
 ![ikuwow](ikuwow.webp)
 
@@ -10,7 +10,7 @@ Ikuo Degawa (@ikuwow)
 
 Born in 1990, lives in Kanagawa, Japan
 
-* Twitter: https://twitter.com/ikuwow
+* X: https://x.com/ikuwow
 * GitHub: https://github.com/ikuwow
 * Blog: https://queryok.ikuwow.com
 * Email: ikuwow(at)gmail.com
@@ -21,12 +21,14 @@ The latest version of this resume is available on GitHub: https://github.com/iku
 
 * Experience in SRE and DevOps for web applications
   * Building and maintaining CI/CD environments using CircleCI, TravisCI, GitHub Actions, etc.
+  * Designing and operating GitOps and progressive delivery using PipeCD, etc.
   * Managing development projects using GitHub, etc.
-  * Determining and implementing SLIs, setting SLOs
   * Supporting the structure of development teams and practicing Enabling SRE
   * Solving problems across applications and promoting projects
   * Leadership in incident response
   * Practicing SRE principles like 50% rule, post-mortems, etc.
+  * Setting up and operating SLO/SLI and error budget policies
+  * Designing and building observability tooling using Datadog, etc.
 * Experience in building and managing infrastructure, managing middleware
   * Basic knowledge of networking and infrastructure technology
   * Utilizing cloud platforms like AWS, GCP
@@ -43,8 +45,9 @@ The latest version of this resume is available on GitHub: https://github.com/iku
   * Experience in frontend development using HTML/CSS/JavaScript
   * Building and maintaining frontend projects with Sass, Webpack
   * Performance monitoring and improvement
+  * Building frontend observability tooling using RUM tools
 * Others
-  * Building data analysis environments using Elasticsearch, Kibana, Redshift, Tableau, etc.
+  * Building data analysis environments using Elasticsearch, Kibana, Redshift, BigQuery, Tableau, etc.
   * Experience in developing iOS applications with Swift
   * Image processing and audio processing programming with MATLAB and C
   * Customizing CMS like WordPress
@@ -54,8 +57,10 @@ The latest version of this resume is available on GitHub: https://github.com/iku
 ## Capabilities
 
 * Always acting with the project's or service's goals in mind
-* Solving problems with a view to overall optimization across job roles and technical domains
+* Solving problems across job roles and technical domains with overall optimization in mind, factoring in technology, organizational, and cost trade-offs
 * Conducting hands-on technical validation/PoC
+* Utilizing AI coding agents and setting up their environments
+* Designing and introducing development processes premised on AI agents
 * Smooth asynchronous communication using GitHub, documentation tools, and messaging tools
 * Valuing morals and user value
 * Reading, writing, and listening in English
@@ -63,9 +68,37 @@ The latest version of this resume is available on GitHub: https://github.com/iku
 
 ## Work Experience
 
-### フリーランス
+### tacoms Inc.
 
-Working as a freelance Infrastructure Engineer and SRE since June 2024.
+Worked as a contractor from June 2024 to July 2025, then as a full-time employee from August 2025 to present
+
+#### SRE Member / Tech Lead
+
+* Operating AWS service infrastructure using ECS Fargate, Aurora, SQS/SNS, Lambda, etc.
+* Performance optimization of Aurora MySQL
+* Designing and building the data aggregation infrastructure using BigQuery, etc.
+* Building and operating infrastructure for new services
+* Designing and implementing migration from CIOps (GitHub Actions → ECR → ECS) to GitOps (PipeCD)
+* Building and promoting observability tooling using Datadog
+* Evaluating TiDB migration
+* Introducing canary release / progressive delivery using PipeCD
+* Designing and building infrastructure for detecting integration errors with external services (Lambda, EventBridge, Datadog)
+* Handling traffic spikes from customer campaigns
+* Building infrastructure for AI utilization
+* Various incident response and on-call
+
+#### Development and operation of "Camel", a restaurant order management SaaS
+
+* Designing SLO/SLI, building and operating measurement infrastructure (Datadog, AWS)
+* Developing and operating Golang backend applications
+* Building monitoring tooling for external integration availability
+* Optimizing infrastructure costs
+* Promoting migration from other products
+* Feature improvements for large enterprise adoption
+
+#### Cross-functional
+
+* Administrator of internal infrastructure systems like GitHub, Datadog
 
 ### ZOZO, Inc.
 
@@ -89,12 +122,63 @@ Worked as a full-time employee from December 2021 to April 2024 in a fully remot
 
 * Catching up on domain knowledge and translating it into requirements
 * Conducting PoC, designing, and building data integration methods using Kafka (Amazon MSK, etc.)
+* Task and schedule management
+* Logical design of RDBs
+* Building release flows and lecturing development teams
+* Adhering to various guidelines including security
+* Lecturing SRE and development teams on post-replacement technologies
+* Conducting pre-release load testing
+
+#### Frontend Replacement Project
+
+* Designing, building, and operating NodeJS applications on microservice infrastructure
+* Designing WAF and routing on Akamai
+* Building release flows and lecturing development teams
+* Adhering to various guidelines including security
+* Lecturing SRE and development teams on post-replacement technologies
+* Conducting pre-release load testing
+
+<div class="page-break"></div>
+
+### SMS Co., Ltd.
+
+Worked as a full-time employee from October 2017 to November 2021
+(Worked fully remotely from 2020)
+
+#### Development and support for an internal LP hosting service, and others
+
+August 2020 - November 2021
+
+* Improving features of Ruby on Rails applications
+* Rebuilding and maintaining the environment for Serverless applications
+* Improving development structure by setting up CI and workflows
+* Reducing cost and improving management by rebuilding AWS environment
+* Code review and release management
+* Consulting for users (marketers, designers, etc.)
+* Defining the service's positioning and deciding future directions
+
+#### SRE for elderly care management support service (SaaS) Kaipoke
+
+October 2017 - July 2020
+
+* Improving performance across multiple Spring and SAStruts applications
+* Performance tuning of applications and DBs
+* Maintaining AWS environment in cooperation with partner companies
+* Building and maintaining development environments with AWS and Terraform
+* Handling EoL of dependent frameworks and packages
+* Maintaining batch jobs
+* Designing SLIs, implementing and visualizing them using AWS, deciding SLOs
+* Optimizing the cost of the entire infrastructure
+* Supporting each development team with release schedule adjustments, etc.
+* Triaging system requirements from internal stakeholders and supporting problem solving
 
 ### TeamUp Inc.
 
-Worked as a freelance engineer from July 2021 to June 2022
+Worked as a freelance engineer from April 2018 to June 2021 in a fully remote capacity
 
 #### Infrastructure setup and support for establishing development systems for 1-on-1 tool TeamUp
+
+April 2018 - June 2021
 
 * Converting AWS environment to IaC using Terraform/Ansible
 * Setting up development systems using documentation management tools like esa.io, GitHub
@@ -111,6 +195,8 @@ Worked as a freelance engineer from July 2021 to June 2022
 Worked as a full-time employee from April 2015 to September 2017
 
 #### Development of engineer-oriented Q&A service "teratail" and others
+
+April 2015 - September 2017
 
 * Developing and maintaining CakePHP applications
 * Designing and building public REST APIs
@@ -144,10 +230,12 @@ Worked as an intern from September 2013 to March 2015
 
 ## Publications
 
-* O'Reilly [進化的アーキテクチャ](https://www.oreilly.co.jp/books/9784873118567/) translation review, 2019
-* SoftwareDesign series "アプリエンジニアのための［インフラ］入門", all 6 parts, 2016
-* gihyo.jp [あとはコードを書くだけ，はじめに作る開発環境構築ベストプラクティス](https://gihyo.jp/dev/serial/01/howto-env-conf), 2016
-* gihyo.jp [聞いたら一生の宝，プログラミングの基礎の基礎](https://gihyo.jp/dev/serial/01/js-foundation), (3rd, 5th, 7th parts), 2015
+* [tacoms tech blog](https://tacoms-inc.hatenablog.com/archive/author/ikuwow) Tech blog articles, 2024–
+* [Former tacoms tech blog](https://zenn.dev/p/tacoms) Tech blog articles
+* O'Reilly [進化的アーキテクチャ (Building Evolutionary Architectures)](https://www.oreilly.co.jp/books/9784873118567/) translation review, 2019
+* SoftwareDesign series "アプリエンジニアのための［インフラ］入門 (Infrastructure Basics for Application Engineers)", all 6 parts, 2016
+* gihyo.jp [あとはコードを書くだけ，はじめに作る開発環境構築ベストプラクティス (Development Environment Setup Best Practices)](https://gihyo.jp/dev/serial/01/howto-env-conf), 2016
+* gihyo.jp [聞いたら一生の宝，プログラミングの基礎の基礎 (Programming Fundamentals)](https://gihyo.jp/dev/serial/01/js-foundation), (3rd, 5th, 7th parts), 2015
 * Ikuo Degawa, Taichi Yoshida, Kazu Mishiba, Masaaki Ikehara, Single Image Super Resolution by l2 Approximation without Learning in International Workshop on Advanced Image Technology (IWAIT), Jan. 2014
 * Ikuo Degawa, Kei Sato, and Masaaki Ikehara, Multipitch estimation and instrument recognition by exemplar-based sparse representation, Proc. of IEEE ACSSC 2013, Pacific Grove, CA, Nov. 2013.
 
