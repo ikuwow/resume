@@ -71,7 +71,7 @@ Ikuo Degawa (@ikuwow)
 
 業務委託として2024年6月〜2025年7月、正社員として2025年8月から現在まで勤務
 
-#### SREメンバー/テックリード（SREチーム約5〜6名）
+#### SREメンバー/テックリード
 
 * ECS Fargate, Aurora, SQS/SNS, Lambda等の運用
 * Aurora MySQLのパフォーマンス最適化
