@@ -45,7 +45,7 @@ The latest version of this resume is available on GitHub: https://github.com/iku
   * Experience in frontend development using HTML/CSS/JavaScript
   * Building and maintaining frontend projects with Sass, Webpack
   * Performance monitoring and improvement
-  * Building observability tooling using RUM tools
+  * Building frontend observability tooling using RUM tools
 * Others
   * Building data analysis environments using Elasticsearch, Kibana, Redshift, BigQuery, Tableau, etc.
   * Experience in developing iOS applications with Swift
@@ -57,8 +57,7 @@ The latest version of this resume is available on GitHub: https://github.com/iku
 ## Capabilities
 
 * Always acting with the project's or service's goals in mind
-* Solving problems with a view to overall optimization across job roles and technical domains
-* Making cross-cutting trade-off judgments across technology, organization, and cost
+* Solving problems across job roles and technical domains with overall optimization in mind, factoring in technology, organizational, and cost trade-offs
 * Conducting hands-on technical validation/PoC
 * Utilizing AI coding agents and setting up their environments
 * Designing and introducing development processes premised on AI agents
