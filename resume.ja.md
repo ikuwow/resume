@@ -43,7 +43,7 @@ Ikuo Degawa (@ikuwow)
   * HTML/CSS/JavaScriptを使ったフロントエンド開発の経験
   * Sass, Webpackを使ったフロントエンドプロジェクトの構築、メンテナンス
   * パフォーマンスモニタリングと改善
-  * RUMツールを用いた観測の仕組みの構築
+  * RUMツールを用いたフロントエンド観測の仕組みの構築
 * その他
   * Elasticsearch, Kibana, Redshift, BigQuery, Tableau等を使ったデータ分析環境の構築
   * SwiftによるiOSアプリの開発経験
@@ -55,8 +55,7 @@ Ikuo Degawa (@ikuwow)
 ## できること
 
 * 常にプロジェクトやサービスの目的を見据えて行動する
-* 職種や技術領域をまたいだ、全体最適を目指した問題解決
-* 技術・組織・コストを横断したトレードオフ判断
+* 職種や技術領域をまたいだ、技術・組織・コストのトレードオフを踏まえた全体最適な問題解決
 * 手を動かして技術検証/PoCができる
 * AIコーディングエージェントの活用、環境整備
 * AIエージェントを前提とした開発プロセスの設計と導入
@@ -73,7 +72,7 @@ Ikuo Degawa (@ikuwow)
 
 #### SREメンバー/テックリード
 
-* ECS Fargate, Aurora, SQS/SNS, Lambda等の運用
+* ECS Fargate, Aurora, SQS/SNS, Lambdaを利用したAWSサービス基盤の運用
 * Aurora MySQLのパフォーマンス最適化
 * データ集計基盤の設計/構築
 * 新サービスインフラ構築・運用
@@ -81,7 +80,7 @@ Ikuo Degawa (@ikuwow)
 * Datadogを用いた可観測性を担う仕組みの構築、推進
 * TiDB移行調査/検討
 * PipeCDを用いたcanary release / progressive deliveryの導入
-* 外部POS事業者との連携漏れを検知する基盤の設計、構築 (Lambda, EventBridge, Datadog)
+* 外部サービスとの連携エラー検知基盤の設計、構築 (Lambda, EventBridge, Datadog)
 * 顧客のキャンペーンに伴う負荷対策
 * AI活用のための基盤構築
 * 各種障害対応、オンコール
@@ -93,6 +92,7 @@ Ikuo Degawa (@ikuwow)
 * 外部連携の可用性等の計測の仕組みの構築
 * インフラコスト最適化
 * 他製品からのリプレイスの推進
+* 大手企業導入に伴う機能改修
 
 #### 共通
 
