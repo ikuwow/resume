@@ -8,7 +8,7 @@ Ikuo Degawa (@ikuwow)
 
 1990年生まれ 神奈川県在住
 
-* Twitter https://twitter.com/ikuwow
+* X https://x.com/ikuwow
 * GitHub https://github.com/ikuwow
 * Blog https://queryok.ikuwow.com
 * Email ikuwow(at)gmail.com
@@ -71,7 +71,7 @@ Ikuo Degawa (@ikuwow)
 
 業務委託として2024年6月〜2025年7月、正社員として2025年8月から現在まで勤務
 
-#### SREメンバー/テックリード
+#### SREメンバー/テックリード（SREチーム約5〜6名）
 
 * ECS Fargate, Aurora, SQS/SNS, Lambda等の運用
 * Aurora MySQLのパフォーマンス最適化
