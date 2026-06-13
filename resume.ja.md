@@ -86,7 +86,7 @@ Ikuo Degawa (@ikuwow)
 * AI活用のための基盤構築
 * 各種障害対応、オンコール
 
-#### Camelの開発/運用
+#### 飲食店向け注文管理 SaaS「Camel」の開発/運用
 
 * SLO/SLIの設計、計測基盤の構築、運用 (Datadog, AWS)
 * Golangバックエンドアプリケーションの開発、運用
