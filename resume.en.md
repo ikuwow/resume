@@ -74,15 +74,15 @@ Worked as a contractor from June 2024 to July 2025, then as a full-time employee
 
 #### SRE Member / Tech Lead
 
-* Operating ECS Fargate, Aurora, SQS/SNS, Lambda, etc.
+* Operating AWS service infrastructure using ECS Fargate, Aurora, SQS/SNS, Lambda, etc.
 * Performance optimization of Aurora MySQL
-* Designing and building the data aggregation infrastructure
+* Designing and building the data aggregation infrastructure using BigQuery, etc.
 * Building and operating infrastructure for new services
 * Designing and implementing migration from CIOps (GitHub Actions → ECR → ECS) to GitOps (PipeCD)
 * Building and promoting observability tooling using Datadog
 * Evaluating TiDB migration
 * Introducing canary release / progressive delivery using PipeCD
-* Designing and building infrastructure for detecting integration gaps with external POS providers (Lambda, EventBridge, Datadog)
+* Designing and building infrastructure for detecting integration errors with external services (Lambda, EventBridge, Datadog)
 * Handling traffic spikes from customer campaigns
 * Building infrastructure for AI utilization
 * Various incident response and on-call
@@ -94,6 +94,7 @@ Worked as a contractor from June 2024 to July 2025, then as a full-time employee
 * Building monitoring tooling for external integration availability
 * Optimizing infrastructure costs
 * Promoting migration from other products
+* Feature improvements for large enterprise adoption
 
 #### Cross-functional
 

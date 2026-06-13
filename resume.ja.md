@@ -74,8 +74,8 @@ Ikuo Degawa (@ikuwow)
 
 * ECS Fargate, Aurora, SQS/SNS, Lambdaを利用したAWSサービス基盤の運用
 * Aurora MySQLのパフォーマンス最適化
-* データ集計基盤の設計/構築
-* 新サービスインフラ構築・運用
+* BigQuery等を用いたデータ集計基盤の設計/構築
+* 新規サービスインフラ構築・運用
 * CIOps（GitHub Actions → ECR → ECS）からGitOps (PipeCD) への移行設計・実装
 * Datadogを用いた可観測性を担う仕組みの構築、推進
 * TiDB移行調査/検討
