@@ -6,6 +6,8 @@
 
 Ikuo Degawa (@ikuwow)
 
+SRE / Platform Engineer
+
 1990年生まれ 神奈川県在住
 
 * X https://x.com/ikuwow
@@ -15,54 +17,41 @@ Ikuo Degawa (@ikuwow)
 
 この職務経歴書の最新版はGitHubにあります: https://github.com/ikuwow/resume
 
-## 技術
+## 概要
 
-* WebアプリケーションにおけるSRE, DevOpsの経験
-  * CircleCI, TravisCI, GitHub Actions等を用いたCI/CD環境の構築、メンテナンス
-  * PipeCD等を用いたGitOps・プログレッシブデリバリーの設計・運用
-  * GitHub等を用いた開発プロジェクトの管理
-  * 開発チームの体制サポート、Enabling SREの実践
-  * アプリケーションをまたいだ問題解決とプロジェクト推進
-  * 障害対応におけるリーダーシップ
-  * 50%ルール、ポストモーテム等のSREプラクティスの実施
-  * SLO/SLI, エラーバジェットポリシーの整備と運用
-  * Datadog等を用いた可観測性のための仕組みの設計・構築
-* インフラの構築管理、ミドルウェアの管理の経験
-  * ネットワークやインフラ技術の基礎的な知識
-  * AWS, GCP等のクラウドプラットフォームの活用
-  * Terraform、Ansible、Chef等を使ったIaCによる構成管理の環境の構築、運用
-  * 本番環境におけるDocker, Kubernetes, ECSの経験
-  * Kubernetes・Istioを使ったマイクロサービスアーキテクチャの設計・構築・運用
-  * マイクロサービス環境でのアプリケーションの運用
-  * PostgreSQL, MySQL等のRDBの設計、パフォーマンス改善、管理
-  * オフィスネットワーク構築
-* バックエンド開発の能力
-  * PHP, Ruby, Java, JavaScript, Golang等のプログラミング言語の経験
-  * CakePHP, Ruby on Rails, Spring等のフレームワークの経験
-* フロントエンド開発の能力
-  * HTML/CSS/JavaScriptを使ったフロントエンド開発の経験
-  * Sass, Webpackを使ったフロントエンドプロジェクトの構築、メンテナンス
-  * パフォーマンスモニタリングと改善
-  * RUMツールを用いたフロントエンド観測の仕組みの構築
-* その他
-  * Elasticsearch, Kibana, Redshift, BigQuery, Tableau等を使ったデータ分析環境の構築
-  * SwiftによるiOSアプリの開発経験
-  * MATLABとC言語による画像処理・音声処理プログラミング
-  * WordPress等CMSのカスタマイズ
+Web系企業で SRE・プラットフォームエンジニアとして、サービスの信頼性とデリバリー基盤づくりに長く携わってきました。
+AWS を基盤とした SLO/SLI 運用、GitOps・プログレッシブデリバリー、Kubernetes・Istio によるマイクロサービス基盤の設計・構築・運用を得意としています。
+職種や技術領域をまたいで、技術・組織・コストのトレードオフを踏まえた全体最適な問題解決に取り組み、常にプロジェクトやサービスの目的とユーザーへの価値を見据えて行動します。
+
+## スキル
+
+### コア（信頼性・デリバリー基盤）
+
+* SRE / DevOps の実践（CI/CD 環境の構築・運用、障害対応のリーダーシップ、ポストモーテムや50%ルール等のプラクティス、Enabling SRE）
+* SLO/SLI・エラーバジェットポリシーの整備と運用
+* 可観測性のための仕組みの設計・構築（Datadog 等）
+* GitOps・プログレッシブデリバリーの設計・運用（PipeCD, Flagger, Flux 等）
+* Kubernetes・Istio によるマイクロサービスアーキテクチャの設計・構築・運用
+* AWS を中心としたクラウドインフラの構築・運用
+* Golang によるバックエンドアプリケーションの開発・運用
+* 手を動かした技術検証・PoC
+* AIコーディングエージェントの活用、およびAIエージェントを前提とした開発プロセスの設計・導入
+
+### 実務経験
+
+* 言語・フレームワーク: Golang, Java/Spring, Ruby on Rails, JavaScript, PHP, CakePHP
+* クラウド・基盤: AWS, GCP, Terraform, Ansible, Chef, Docker, Kubernetes, ECS
+* データストア・分析基盤: PostgreSQL, MySQL, Elasticsearch, Redshift, BigQuery, Tableau
+* フロントエンド: HTML/CSS/JavaScript, Sass, Webpack, RUM による観測・パフォーマンス改善
+* その他: ネットワーク・インフラの基礎知識、オフィスネットワーク構築、英語の読み書き・リスニング
+
+### バックグラウンド・周辺
+
+* MATLAB・C 言語による画像処理・音声処理プログラミング
+* Swift による iOS アプリの開発
+* WordPress 等 CMS のカスタマイズ
 
 <div class="page-break"></div>
-
-## できること
-
-* 常にプロジェクトやサービスの目的を見据えて行動する
-* 職種や技術領域をまたいだ、技術・組織・コストのトレードオフを踏まえた全体最適な問題解決
-* 手を動かして技術検証/PoCができる
-* AIコーディングエージェントの活用、環境整備
-* AIエージェントを前提とした開発プロセスの設計と導入
-* GitHubやドキュメンテーションツール、メッセージングツールによるスムーズな非同期コミュニケーション
-* モラルとユーザーへの価値を大事にする
-* 英語の読み書き、リスニング
-* OSSへの貢献
 
 ## 職務経歴
 
@@ -70,17 +59,19 @@ Ikuo Degawa (@ikuwow)
 
 業務委託として2024年6月〜2025年7月、正社員として2025年8月から現在まで勤務
 
+SRE のテックリードとして、飲食店向け注文管理 SaaS「Camel」の信頼性・デリバリー・コストを横断的に推進
+
 #### SREメンバー/テックリード
 
+* CIOps（GitHub Actions → ECR → ECS）からGitOps (PipeCD) への移行設計・実装
+* PipeCDを用いたcanary release / progressive deliveryの導入
+* Datadogを用いた可観測性を担う仕組みの構築、推進
 * ECS Fargate, Aurora, SQS/SNS, Lambdaを利用したAWSサービス基盤の運用
+* 新規サービスインフラ構築・運用
+* 外部サービスとの連携エラー検知基盤の設計、構築 (Lambda, EventBridge, Datadog)
 * Aurora MySQLのパフォーマンス最適化
 * BigQuery等を用いたデータ集計基盤の設計/構築
-* 新規サービスインフラ構築・運用
-* CIOps（GitHub Actions → ECR → ECS）からGitOps (PipeCD) への移行設計・実装
-* Datadogを用いた可観測性を担う仕組みの構築、推進
 * TiDB移行調査/検討
-* PipeCDを用いたcanary release / progressive deliveryの導入
-* 外部サービスとの連携エラー検知基盤の設計、構築 (Lambda, EventBridge, Datadog)
 * 顧客のキャンペーンに伴う負荷対策
 * AI活用のための基盤構築
 * 各種障害対応、オンコール
@@ -102,6 +93,8 @@ Ikuo Degawa (@ikuwow)
 
 正社員として2021年12月〜2024年4月の間フルリモートで勤務
 
+大規模ECのプラットフォームSRE、および基幹システムリプレイスのリードSREを担当
+
 #### プラットフォームサービスSREブロック, Front SREブロック
 
 * Kubernetes基盤の設計・構築・運用
@@ -118,12 +111,12 @@ Ikuo Degawa (@ikuwow)
 
 #### 基幹システムリプレイスのリードSRE
 
-* ドメイン知識のキャッチアップと要件への落とし込み
 * Kafka (Amazon MSK等)を用いたデータ連携方式のPoC、設計、構築
-* タスク/スケジュールの管理
+* ドメイン知識のキャッチアップと要件への落とし込み
 * RDBの論理設計
+* タスク/スケジュールの管理
 * リリースフローの構築と開発チームへのレクチャー
-* セキュリティ等各種ガイドラインの遵守
+* 社内のセキュリティ・コンプライアンスガイドラインの遵守
 * SREや開発チームへのリプレイス後技術のレクチャー
 * リリース前負荷試験の実施
 
@@ -131,15 +124,13 @@ Ikuo Degawa (@ikuwow)
 
 * マイクロサービス基盤上でのNodeJSアプリケーションの設計、構築、運用
 * AkamaiでのWAFやルーティングの設計
-* リリースフローの構築と開発チームへのレクチャー
-* セキュリティ等各種ガイドラインの遵守
-* SREや開発チームへのリプレイス後の技術のレクチャー
-* リリース前負荷試験の実施
 
 ### 株式会社エス・エム・エス
 
 正社員として2017年10月〜2021年11月の間勤務
 （2020年よりフルリモート勤務）
+
+介護経営支援 SaaS「カイポケ」をはじめとする複数サービスの SRE を担当
 
 #### 社内向けLPホスティングサービスの開発、サポートほか
 
@@ -172,6 +163,8 @@ Ikuo Degawa (@ikuwow)
 
 業務委託として2018年4月〜2021年6月の間フルリモートで従事
 
+1on1 支援ツール TeamUp を運営するチームを業務委託で支援し、インフラ整備と開発体制づくりを担当
+
 #### 1 on 1ツールTeamUpのインフラ整備、開発体制の仕組み化支援
 
 2018年4月〜2021年6月
@@ -190,26 +183,28 @@ Ikuo Degawa (@ikuwow)
 
 正社員として2015年4月〜2017年9月の間勤務
 
+エンジニア向け Q&A サービス「teratail」を中心に、Web アプリ開発・インフラ・データ分析基盤まで横断的に担当
+
 #### エンジニア向けQ&Aサービス「teratail」の開発ほか
 
 2015年4月〜2017年9月
 
 * CakePHPアプリケーションの機能開発、メンテナンス
 * 公開REST APIの設計、構築
+* VPCからGKE(Kubernetes)環境への移行
+* アプリケーション全体のパフォーマンス改善
 * キャンペーンページのフロントエンド全体の開発
 * CI環境の整備
 * 事業目標達成のための施策検討
 * Elasticsearch, Redshift, BigQuery等を使った分析基盤の構築
-* VPCからGKE(Kubernetes)環境への移行
-* アプリケーション全体のパフォーマンス改善
 * メールマガジンのシステム（Mailchimp）の導入とアプリとの接続
 * 純広告のシステム（Google Adwords）の導入と管理
+* 2015年度Excellent Hacker賞受賞
 * その他
   * 社内ネットワークの設計、構築、管理
   * 記事コンテンツの執筆
   * メールマガジン等のコンテンツの構築・ディレクション
   * 採用活動への参加
-  * 2015年度Excellent Hacker賞受賞
 
 ### スローガン株式会社
 
@@ -232,8 +227,6 @@ Ikuo Degawa (@ikuwow)
 * SoftwareDesign連載 アプリエンジニアのための［インフラ］入門 全6回 2016年
 * gihyo.jp [あとはコードを書くだけ，はじめに作る開発環境構築ベストプラクティス](https://gihyo.jp/dev/serial/01/howto-env-conf) 2016年
 * gihyo.jp [聞いたら一生の宝，プログラミングの基礎の基礎](https://gihyo.jp/dev/serial/01/js-foundation)（第3,5,7回）2015年
-* Ikuo Degawa, Taichi Yoshida, Kazu Mishiba, Masaaki Ikehara, Single Image Super Resolution by l2 Approximation without Learning in International Workshop on Advanced Image Technology (IWAIT) , Jan. 2014
-* Ikuo Degawa, Kei Sato, and Masaaki Ikehara, Multipitch estimation and instrument recognition by exemplar-based sparse representation, Proc. of IEEE ACSSC 2013, Pacific Grove, CA, Nov. 2013.
 
 ## 資格
 

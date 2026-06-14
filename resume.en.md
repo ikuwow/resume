@@ -8,6 +8,8 @@ As of June 2026
 
 Ikuo Degawa (@ikuwow)
 
+SRE / Platform Engineer
+
 Born in 1990, lives in Kanagawa, Japan
 
 * X: https://x.com/ikuwow
@@ -17,54 +19,42 @@ Born in 1990, lives in Kanagawa, Japan
 
 The latest version of this resume is available on GitHub: https://github.com/ikuwow/resume
 
+## Summary
+
+I have worked for many years as an SRE and platform engineer at web companies, building the reliability and delivery platforms of services.
+I specialize in SLO/SLI operations on AWS, GitOps and progressive delivery, and the design, construction, and operation of microservice platforms with Kubernetes and Istio.
+Working across job roles and technical domains, I pursue holistic problem-solving that factors in technical, organizational, and cost trade-offs.
+I always act with the goals of the project or service and the value to users in mind.
+
 ## Skills
 
-* Experience in SRE and DevOps for web applications
-  * Building and maintaining CI/CD environments using CircleCI, TravisCI, GitHub Actions, etc.
-  * Designing and operating GitOps and progressive delivery using PipeCD, etc.
-  * Managing development projects using GitHub, etc.
-  * Supporting the structure of development teams and practicing Enabling SRE
-  * Solving problems across applications and promoting projects
-  * Leadership in incident response
-  * Practicing SRE principles like 50% rule, post-mortems, etc.
-  * Setting up and operating SLO/SLI and error budget policies
-  * Designing and building observability tooling using Datadog, etc.
-* Experience in building and managing infrastructure, managing middleware
-  * Basic knowledge of networking and infrastructure technology
-  * Utilizing cloud platforms like AWS, GCP
-  * Building and operating infrastructure using IaC with Terraform, Ansible, Chef, etc.
-  * Experience with Docker, Kubernetes and ECS in production environments
-  * Designing, building, and operating microservice architectures with Kubernetes and Istio
-  * Operating applications in a microservices environment
-  * Designing, improving performance, and managing RDBs like PostgreSQL, MySQL
-  * Building office networks
-* Backend development skills
-  * Experience in programming languages like PHP, Ruby, Java, JavaScript, Golang
-  * Experience with frameworks like CakePHP, Ruby on Rails, Spring
-* Frontend development skills
-  * Experience in frontend development using HTML/CSS/JavaScript
-  * Building and maintaining frontend projects with Sass, Webpack
-  * Performance monitoring and improvement
-  * Building frontend observability tooling using RUM tools
-* Others
-  * Building data analysis environments using Elasticsearch, Kibana, Redshift, BigQuery, Tableau, etc.
-  * Experience in developing iOS applications with Swift
-  * Image processing and audio processing programming with MATLAB and C
-  * Customizing CMS like WordPress
+### Core (Reliability & Delivery Platform)
+
+* SRE / DevOps practice (building and operating CI/CD environments, leadership in incident response, practices such as postmortems and the 50% rule, Enabling SRE)
+* Establishing and operating SLO/SLI and error budget policies
+* Designing and building observability tooling (Datadog, etc.)
+* Designing and operating GitOps and progressive delivery (PipeCD, Flagger, Flux, etc.)
+* Designing, building, and operating microservice architectures with Kubernetes and Istio
+* Building and operating AWS-centered cloud infrastructure
+* Developing and operating backend applications in Golang
+* Hands-on technical validation and PoC
+* Leveraging AI coding agents, and designing and introducing development processes built around AI agents
+
+### Proficient
+
+* Languages & frameworks: Golang, Java/Spring, Ruby on Rails, JavaScript, PHP, CakePHP
+* Cloud & infrastructure: AWS, GCP, Terraform, Ansible, Chef, Docker, Kubernetes, ECS
+* Datastores & analytics: PostgreSQL, MySQL, Elasticsearch, Redshift, BigQuery, Tableau
+* Frontend: HTML/CSS/JavaScript, Sass, Webpack, observability and performance improvement with RUM
+* Other: fundamentals of networking and infrastructure, office network setup, reading/writing/listening in English
+
+### Background
+
+* Image and audio processing programming with MATLAB and C
+* iOS app development with Swift
+* Customizing CMS such as WordPress
 
 <div class="page-break"></div>
-
-## Capabilities
-
-* Always acting with the project's or service's goals in mind
-* Solving problems across job roles and technical domains with overall optimization in mind, factoring in technology, organizational, and cost trade-offs
-* Conducting hands-on technical validation/PoC
-* Utilizing AI coding agents and setting up their environments
-* Designing and introducing development processes premised on AI agents
-* Smooth asynchronous communication using GitHub, documentation tools, and messaging tools
-* Valuing morals and user value
-* Reading, writing, and listening in English
-* Contributing to OSS
 
 ## Work Experience
 
@@ -72,19 +62,21 @@ The latest version of this resume is available on GitHub: https://github.com/iku
 
 Worked as a contractor from June 2024 to July 2025, then as a full-time employee from August 2025 to present
 
+As the SRE tech lead, driving the reliability, delivery, and cost of the restaurant order management SaaS "Camel" across the board
+
 #### SRE Member / Tech Lead
 
+* Designing and implementing migration from CIOps (GitHub Actions → ECR → ECS) to GitOps (PipeCD)
+* Introducing canary release / progressive delivery using PipeCD
+* Building and promoting observability tooling using Datadog
 * Operating AWS service infrastructure using ECS Fargate, Aurora, SQS/SNS, Lambda, etc.
+* Building and operating infrastructure for new services
+* Designing and building infrastructure for detecting integration errors with external services (Lambda, EventBridge, Datadog)
 * Performance optimization of Aurora MySQL
 * Designing and building the data aggregation infrastructure using BigQuery, etc.
-* Building and operating infrastructure for new services
-* Designing and implementing migration from CIOps (GitHub Actions → ECR → ECS) to GitOps (PipeCD)
-* Building and promoting observability tooling using Datadog
 * Evaluating TiDB migration
-* Introducing canary release / progressive delivery using PipeCD
-* Designing and building infrastructure for detecting integration errors with external services (Lambda, EventBridge, Datadog)
 * Handling traffic spikes from customer campaigns
-* Building infrastructure for AI utilization
+* Building a platform to support AI/LLM workloads
 * Various incident response and on-call
 
 #### Development and operation of "Camel", a restaurant order management SaaS
@@ -104,7 +96,9 @@ Worked as a contractor from June 2024 to July 2025, then as a full-time employee
 
 Worked as a full-time employee from December 2021 to April 2024 in a fully remote capacity
 
-#### Platform Services SRE Block, Front SRE Block
+Served as a platform SRE for a large-scale EC service, and as the lead SRE for a core system re-platforming
+
+#### Platform SRE and Frontend SRE teams
 
 * Designing, building, and operating Kubernetes infrastructure
 * Operating microservice applications on a service mesh using Istio
@@ -118,32 +112,28 @@ Worked as a full-time employee from December 2021 to April 2024 in a fully remot
 * On-call duties, incident response
 * Mentoring new employees
 
-#### Lead SRE for Core System Replacement
+#### Lead SRE for Core System Re-platforming
 
-* Catching up on domain knowledge and translating it into requirements
 * Conducting PoC, designing, and building data integration methods using Kafka (Amazon MSK, etc.)
-* Task and schedule management
+* Catching up on domain knowledge and translating it into requirements
 * Logical design of RDBs
-* Building release flows and lecturing development teams
-* Adhering to various guidelines including security
-* Lecturing SRE and development teams on post-replacement technologies
+* Task and schedule management
+* Building release flows and running training sessions for the development teams
+* Adhering to internal security and compliance guidelines
+* Onboarding the SRE and development teams onto the new stack
 * Conducting pre-release load testing
 
-#### Frontend Replacement Project
+#### Frontend Re-platforming Project
 
 * Designing, building, and operating NodeJS applications on microservice infrastructure
 * Designing WAF and routing on Akamai
-* Building release flows and lecturing development teams
-* Adhering to various guidelines including security
-* Lecturing SRE and development teams on post-replacement technologies
-* Conducting pre-release load testing
-
-<div class="page-break"></div>
 
 ### SMS Co., Ltd.
 
 Worked as a full-time employee from October 2017 to November 2021
 (Worked fully remotely from 2020)
+
+As the SRE for the elderly care management support SaaS "Kaipoke" and other services
 
 #### Development and support for an internal LP hosting service, and others
 
@@ -176,6 +166,8 @@ October 2017 - July 2020
 
 Worked as a freelance engineer from April 2018 to June 2021 in a fully remote capacity
 
+Supported the team running the 1-on-1 tool TeamUp as a contractor, owning infrastructure setup and development-process foundations
+
 #### Infrastructure setup and support for establishing development systems for 1-on-1 tool TeamUp
 
 April 2018 - June 2021
@@ -194,26 +186,28 @@ April 2018 - June 2021
 
 Worked as a full-time employee from April 2015 to September 2017
 
+Worked mainly on the engineer-focused Q&A service "teratail", spanning web application development, infrastructure, and data analytics platforms
+
 #### Development of engineer-oriented Q&A service "teratail" and others
 
 April 2015 - September 2017
 
 * Developing and maintaining CakePHP applications
 * Designing and building public REST APIs
-* Developing the entire frontend for campaign pages
-* Setting up CI environment
-* Considering measures to achieve business goals
-* Building analysis infrastructure using Elasticsearch, Redshift, BigQuery, etc.
 * Migrating from VPC to GKE (Kubernetes) environment
 * Improving application performance overall
+* Developing the entire frontend for campaign pages
+* Setting up CI environment
+* Planning initiatives to achieve business goals
+* Building analysis infrastructure using Elasticsearch, Redshift, BigQuery, etc.
 * Introducing and connecting Mailchimp system with the application for newsletters
 * Introducing and managing Google's advertising system (Google Adwords)
+* Awarded Excellent Hacker Award in 2015
 * Others
   * Designing, building, and managing internal networks
   * Writing content articles
   * Building and directing newsletter content
   * Participating in recruitment activities
-  * Awarded Excellent Hacker Award in 2015
 
 ### Slogan, Inc.
 
@@ -224,11 +218,11 @@ Worked as an intern from September 2013 to March 2015
 * Developing user-facing CakePHP applications
 * Developing admin-facing CakePHP applications
 * Replacing VPC environments using Chef, etc.
-* Building and maintaining office/office-to-office networks
+* Building and maintaining office and inter-office (site-to-site) networks
 * Developing new iOS applications
 * Conducting seminars for student engineers
 
-## Publications
+## Writing
 
 * [tacoms tech blog](https://tacoms-inc.hatenablog.com/archive/author/ikuwow) Tech blog articles, 2024–
 * [Former tacoms tech blog](https://zenn.dev/p/tacoms) Tech blog articles
@@ -236,8 +230,6 @@ Worked as an intern from September 2013 to March 2015
 * SoftwareDesign series "アプリエンジニアのための［インフラ］入門 (Infrastructure Basics for Application Engineers)", all 6 parts, 2016
 * gihyo.jp [あとはコードを書くだけ，はじめに作る開発環境構築ベストプラクティス (Development Environment Setup Best Practices)](https://gihyo.jp/dev/serial/01/howto-env-conf), 2016
 * gihyo.jp [聞いたら一生の宝，プログラミングの基礎の基礎 (Programming Fundamentals)](https://gihyo.jp/dev/serial/01/js-foundation), (3rd, 5th, 7th parts), 2015
-* Ikuo Degawa, Taichi Yoshida, Kazu Mishiba, Masaaki Ikehara, Single Image Super Resolution by l2 Approximation without Learning in International Workshop on Advanced Image Technology (IWAIT), Jan. 2014
-* Ikuo Degawa, Kei Sato, and Masaaki Ikehara, Multipitch estimation and instrument recognition by exemplar-based sparse representation, Proc. of IEEE ACSSC 2013, Pacific Grove, CA, Nov. 2013.
 
 ## Certifications
 
