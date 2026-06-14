@@ -219,7 +219,7 @@ SRE のテックリードとして、飲食店向け注文管理 SaaS「Camel」
 * iOSアプリの新規開発
 * 学生エンジニア向けセミナー講師
 
-## 執筆・発表・OSS
+## 執筆
 
 * [tacoms テックブログ](https://tacoms-inc.hatenablog.com/archive/author/ikuwow) テックブログ執筆 2024年〜
 * [旧tacoms テックブログ](https://zenn.dev/p/tacoms) テックブログ執筆
@@ -229,7 +229,6 @@ SRE のテックリードとして、飲食店向け注文管理 SaaS「Camel」
 * gihyo.jp [聞いたら一生の宝，プログラミングの基礎の基礎](https://gihyo.jp/dev/serial/01/js-foundation)（第3,5,7回）2015年
 * Ikuo Degawa, Taichi Yoshida, Kazu Mishiba, Masaaki Ikehara, Single Image Super Resolution by l2 Approximation without Learning in International Workshop on Advanced Image Technology (IWAIT) , Jan. 2014
 * Ikuo Degawa, Kei Sato, and Masaaki Ikehara, Multipitch estimation and instrument recognition by exemplar-based sparse representation, Proc. of IEEE ACSSC 2013, Pacific Grove, CA, Nov. 2013.
-* [GitHub](https://github.com/ikuwow) 上での OSS へのコントリビュート
 
 ## 資格
 

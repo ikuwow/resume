@@ -222,7 +222,7 @@ Worked as an intern from September 2013 to March 2015
 * Developing new iOS applications
 * Conducting seminars for student engineers
 
-## Writing, Talks & OSS
+## Publications
 
 * [tacoms tech blog](https://tacoms-inc.hatenablog.com/archive/author/ikuwow) Tech blog articles, 2024–
 * [Former tacoms tech blog](https://zenn.dev/p/tacoms) Tech blog articles
@@ -232,7 +232,6 @@ Worked as an intern from September 2013 to March 2015
 * gihyo.jp [聞いたら一生の宝，プログラミングの基礎の基礎 (Programming Fundamentals)](https://gihyo.jp/dev/serial/01/js-foundation), (3rd, 5th, 7th parts), 2015
 * Ikuo Degawa, Taichi Yoshida, Kazu Mishiba, Masaaki Ikehara, Single Image Super Resolution by l2 Approximation without Learning in International Workshop on Advanced Image Technology (IWAIT), Jan. 2014
 * Ikuo Degawa, Kei Sato, and Masaaki Ikehara, Multipitch estimation and instrument recognition by exemplar-based sparse representation, Proc. of IEEE ACSSC 2013, Pacific Grove, CA, Nov. 2013.
-* OSS contributions on [GitHub](https://github.com/ikuwow)
 
 ## Certifications
 
