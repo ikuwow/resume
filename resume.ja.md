@@ -39,7 +39,7 @@ AWS を基盤とした SLO/SLI 運用、GitOps・プログレッシブデリバ�
 
 ### 実務経験
 
-* 言語・フレームワーク: PHP, Ruby on Rails, Java/Spring, JavaScript, Golang, CakePHP
+* 言語・フレームワーク: Golang, Java/Spring, Ruby on Rails, JavaScript, PHP, CakePHP
 * クラウド・基盤: AWS, GCP, Terraform, Ansible, Chef, Docker, Kubernetes, ECS
 * データストア・分析基盤: PostgreSQL, MySQL, Elasticsearch, Redshift, BigQuery, Tableau
 * フロントエンド: HTML/CSS/JavaScript, Sass, Webpack, RUM による観測・パフォーマンス改善
@@ -63,15 +63,15 @@ SRE のテックリードとして、飲食店向け注文管理 SaaS「Camel」
 
 #### SREメンバー/テックリード
 
+* CIOps（GitHub Actions → ECR → ECS）からGitOps (PipeCD) への移行設計・実装
+* PipeCDを用いたcanary release / progressive deliveryの導入
+* Datadogを用いた可観測性を担う仕組みの構築、推進
 * ECS Fargate, Aurora, SQS/SNS, Lambdaを利用したAWSサービス基盤の運用
+* 新規サービスインフラ構築・運用
+* 外部サービスとの連携エラー検知基盤の設計、構築 (Lambda, EventBridge, Datadog)
 * Aurora MySQLのパフォーマンス最適化
 * BigQuery等を用いたデータ集計基盤の設計/構築
-* 新規サービスインフラ構築・運用
-* CIOps（GitHub Actions → ECR → ECS）からGitOps (PipeCD) への移行設計・実装
-* Datadogを用いた可観測性を担う仕組みの構築、推進
 * TiDB移行調査/検討
-* PipeCDを用いたcanary release / progressive deliveryの導入
-* 外部サービスとの連携エラー検知基盤の設計、構築 (Lambda, EventBridge, Datadog)
 * 顧客のキャンペーンに伴う負荷対策
 * AI活用のための基盤構築
 * 各種障害対応、オンコール
@@ -111,12 +111,12 @@ SRE のテックリードとして、飲食店向け注文管理 SaaS「Camel」
 
 #### 基幹システムリプレイスのリードSRE
 
-* ドメイン知識のキャッチアップと要件への落とし込み
 * Kafka (Amazon MSK等)を用いたデータ連携方式のPoC、設計、構築
-* タスク/スケジュールの管理
+* ドメイン知識のキャッチアップと要件への落とし込み
 * RDBの論理設計
+* タスク/スケジュールの管理
 * リリースフローの構築と開発チームへのレクチャー
-* セキュリティ等各種ガイドラインの遵守
+* 社内のセキュリティ・コンプライアンスガイドラインの遵守
 * SREや開発チームへのリプレイス後技術のレクチャー
 * リリース前負荷試験の実施
 
@@ -124,10 +124,6 @@ SRE のテックリードとして、飲食店向け注文管理 SaaS「Camel」
 
 * マイクロサービス基盤上でのNodeJSアプリケーションの設計、構築、運用
 * AkamaiでのWAFやルーティングの設計
-* リリースフローの構築と開発チームへのレクチャー
-* セキュリティ等各種ガイドラインの遵守
-* SREや開発チームへのリプレイス後の技術のレクチャー
-* リリース前負荷試験の実施
 
 ### 株式会社エス・エム・エス
 
@@ -167,6 +163,8 @@ SRE のテックリードとして、飲食店向け注文管理 SaaS「Camel」
 
 業務委託として2018年4月〜2021年6月の間フルリモートで従事
 
+1on1 支援ツール TeamUp を運営するチームを業務委託で支援し、インフラ整備と開発体制づくりを担当
+
 #### 1 on 1ツールTeamUpのインフラ整備、開発体制の仕組み化支援
 
 2018年4月〜2021年6月
@@ -185,26 +183,28 @@ SRE のテックリードとして、飲食店向け注文管理 SaaS「Camel」
 
 正社員として2015年4月〜2017年9月の間勤務
 
+エンジニア向け Q&A サービス「teratail」を中心に、Web アプリ開発・インフラ・データ分析基盤まで横断的に担当
+
 #### エンジニア向けQ&Aサービス「teratail」の開発ほか
 
 2015年4月〜2017年9月
 
 * CakePHPアプリケーションの機能開発、メンテナンス
 * 公開REST APIの設計、構築
+* VPCからGKE(Kubernetes)環境への移行
+* アプリケーション全体のパフォーマンス改善
 * キャンペーンページのフロントエンド全体の開発
 * CI環境の整備
 * 事業目標達成のための施策検討
 * Elasticsearch, Redshift, BigQuery等を使った分析基盤の構築
-* VPCからGKE(Kubernetes)環境への移行
-* アプリケーション全体のパフォーマンス改善
 * メールマガジンのシステム（Mailchimp）の導入とアプリとの接続
 * 純広告のシステム（Google Adwords）の導入と管理
+* 2015年度Excellent Hacker賞受賞
 * その他
   * 社内ネットワークの設計、構築、管理
   * 記事コンテンツの執筆
   * メールマガジン等のコンテンツの構築・ディレクション
   * 採用活動への参加
-  * 2015年度Excellent Hacker賞受賞
 
 ### スローガン株式会社
 

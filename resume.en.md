@@ -21,7 +21,7 @@ The latest version of this resume is available on GitHub: https://github.com/iku
 
 ## Summary
 
-I have worked for many years as an SRE and platform engineer at web companies, building the reliability and delivery foundations of services.
+I have worked for many years as an SRE and platform engineer at web companies, building the reliability and delivery platforms of services.
 I specialize in SLO/SLI operations on AWS, GitOps and progressive delivery, and the design, construction, and operation of microservice platforms with Kubernetes and Istio.
 Working across job roles and technical domains, I pursue holistic problem-solving that factors in technical, organizational, and cost trade-offs.
 I always act with the goals of the project or service and the value to users in mind.
@@ -38,11 +38,11 @@ I always act with the goals of the project or service and the value to users in 
 * Building and operating AWS-centered cloud infrastructure
 * Developing and operating backend applications in Golang
 * Hands-on technical validation and PoC
-* Utilizing AI coding agents, and designing and introducing development processes premised on AI agents
+* Leveraging AI coding agents, and designing and introducing development processes built around AI agents
 
-### Experience
+### Proficient
 
-* Languages & frameworks: PHP, Ruby on Rails, Java/Spring, JavaScript, Golang, CakePHP
+* Languages & frameworks: Golang, Java/Spring, Ruby on Rails, JavaScript, PHP, CakePHP
 * Cloud & infrastructure: AWS, GCP, Terraform, Ansible, Chef, Docker, Kubernetes, ECS
 * Datastores & analytics: PostgreSQL, MySQL, Elasticsearch, Redshift, BigQuery, Tableau
 * Frontend: HTML/CSS/JavaScript, Sass, Webpack, observability and performance improvement with RUM
@@ -66,17 +66,17 @@ As the SRE tech lead, driving the reliability, delivery, and cost of the restaur
 
 #### SRE Member / Tech Lead
 
+* Designing and implementing migration from CIOps (GitHub Actions → ECR → ECS) to GitOps (PipeCD)
+* Introducing canary release / progressive delivery using PipeCD
+* Building and promoting observability tooling using Datadog
 * Operating AWS service infrastructure using ECS Fargate, Aurora, SQS/SNS, Lambda, etc.
+* Building and operating infrastructure for new services
+* Designing and building infrastructure for detecting integration errors with external services (Lambda, EventBridge, Datadog)
 * Performance optimization of Aurora MySQL
 * Designing and building the data aggregation infrastructure using BigQuery, etc.
-* Building and operating infrastructure for new services
-* Designing and implementing migration from CIOps (GitHub Actions → ECR → ECS) to GitOps (PipeCD)
-* Building and promoting observability tooling using Datadog
 * Evaluating TiDB migration
-* Introducing canary release / progressive delivery using PipeCD
-* Designing and building infrastructure for detecting integration errors with external services (Lambda, EventBridge, Datadog)
 * Handling traffic spikes from customer campaigns
-* Building infrastructure for AI utilization
+* Building a platform to support AI/LLM workloads
 * Various incident response and on-call
 
 #### Development and operation of "Camel", a restaurant order management SaaS
@@ -96,9 +96,9 @@ As the SRE tech lead, driving the reliability, delivery, and cost of the restaur
 
 Worked as a full-time employee from December 2021 to April 2024 in a fully remote capacity
 
-Served as a platform SRE for a large-scale EC service, and as the lead SRE for a core system replacement
+Served as a platform SRE for a large-scale EC service, and as the lead SRE for a core system re-platforming
 
-#### Platform Services SRE Block, Front SRE Block
+#### Platform SRE and Frontend SRE teams
 
 * Designing, building, and operating Kubernetes infrastructure
 * Operating microservice applications on a service mesh using Istio
@@ -112,25 +112,21 @@ Served as a platform SRE for a large-scale EC service, and as the lead SRE for a
 * On-call duties, incident response
 * Mentoring new employees
 
-#### Lead SRE for Core System Replacement
+#### Lead SRE for Core System Re-platforming
 
-* Catching up on domain knowledge and translating it into requirements
 * Conducting PoC, designing, and building data integration methods using Kafka (Amazon MSK, etc.)
-* Task and schedule management
+* Catching up on domain knowledge and translating it into requirements
 * Logical design of RDBs
-* Building release flows and lecturing development teams
-* Adhering to various guidelines including security
-* Lecturing SRE and development teams on post-replacement technologies
+* Task and schedule management
+* Building release flows and running training sessions for the development teams
+* Adhering to internal security and compliance guidelines
+* Onboarding the SRE and development teams onto the new stack
 * Conducting pre-release load testing
 
-#### Frontend Replacement Project
+#### Frontend Re-platforming Project
 
 * Designing, building, and operating NodeJS applications on microservice infrastructure
 * Designing WAF and routing on Akamai
-* Building release flows and lecturing development teams
-* Adhering to various guidelines including security
-* Lecturing SRE and development teams on post-replacement technologies
-* Conducting pre-release load testing
 
 ### SMS Co., Ltd.
 
@@ -170,6 +166,8 @@ October 2017 - July 2020
 
 Worked as a freelance engineer from April 2018 to June 2021 in a fully remote capacity
 
+Supported the team running the 1-on-1 tool TeamUp as a contractor, owning infrastructure setup and development-process foundations
+
 #### Infrastructure setup and support for establishing development systems for 1-on-1 tool TeamUp
 
 April 2018 - June 2021
@@ -188,26 +186,28 @@ April 2018 - June 2021
 
 Worked as a full-time employee from April 2015 to September 2017
 
+Worked mainly on the engineer-focused Q&A service "teratail", spanning web application development, infrastructure, and data analytics platforms
+
 #### Development of engineer-oriented Q&A service "teratail" and others
 
 April 2015 - September 2017
 
 * Developing and maintaining CakePHP applications
 * Designing and building public REST APIs
-* Developing the entire frontend for campaign pages
-* Setting up CI environment
-* Considering measures to achieve business goals
-* Building analysis infrastructure using Elasticsearch, Redshift, BigQuery, etc.
 * Migrating from VPC to GKE (Kubernetes) environment
 * Improving application performance overall
+* Developing the entire frontend for campaign pages
+* Setting up CI environment
+* Planning initiatives to achieve business goals
+* Building analysis infrastructure using Elasticsearch, Redshift, BigQuery, etc.
 * Introducing and connecting Mailchimp system with the application for newsletters
 * Introducing and managing Google's advertising system (Google Adwords)
+* Awarded Excellent Hacker Award in 2015
 * Others
   * Designing, building, and managing internal networks
   * Writing content articles
   * Building and directing newsletter content
   * Participating in recruitment activities
-  * Awarded Excellent Hacker Award in 2015
 
 ### Slogan, Inc.
 
@@ -218,7 +218,7 @@ Worked as an intern from September 2013 to March 2015
 * Developing user-facing CakePHP applications
 * Developing admin-facing CakePHP applications
 * Replacing VPC environments using Chef, etc.
-* Building and maintaining office/office-to-office networks
+* Building and maintaining office and inter-office (site-to-site) networks
 * Developing new iOS applications
 * Conducting seminars for student engineers
 
