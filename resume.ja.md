@@ -19,11 +19,11 @@ SRE / Platform Engineer
 
 ## 概要
 
-Web系企業で SRE・プラットフォームエンジニアとして、サービスの信頼性とデリバリー基盤づくりに長く携わってきました。AWS を基盤とした SLO/SLI 運用、GitOps・プログレッシブデリバリー、Kubernetes・Istio によるマイクロサービス基盤の設計・構築・運用を得意としています。職種や技術領域をまたいで、技術・組織・コストのトレードオフを踏まえた全体最適な問題解決に取り組み、常にプロジェクトやサービスの目的とユーザーへの価値を見据えて行動することを大切にしています。GitHub やドキュメンテーション・メッセージングツールを活用した非同期コミュニケーションを基本としています。現在は飲食店向け SaaS「Camel」のテックリードとして、信頼性・デリバリー・コストを横断的に推進しています。
+Web系企業で SRE・プラットフォームエンジニアとして、サービスの信頼性とデリバリー基盤づくりに長く携わってきました。
+AWS を基盤とした SLO/SLI 運用、GitOps・プログレッシブデリバリー、Kubernetes・Istio によるマイクロサービス基盤の設計・構築・運用を得意としています。
+職種や技術領域をまたいで、技術・組織・コストのトレードオフを踏まえた全体最適な問題解決に取り組み、常にプロジェクトやサービスの目的とユーザーへの価値を見据えて行動します。
 
 ## スキル
-
-習熟度の高い順に記載しています。
 
 ### コア（信頼性・デリバリー基盤）
 
@@ -39,16 +39,11 @@ Web系企業で SRE・プラットフォームエンジニアとして、サー�
 
 ### 実務経験
 
-* プログラミング言語: PHP, Ruby, Java, JavaScript, Golang
-* フレームワーク: CakePHP, Ruby on Rails, Spring
-* IaC・構成管理: Terraform, Ansible, Chef
-* コンテナ・オーケストレーション: Docker, Kubernetes, ECS
-* クラウド: AWS, GCP
-* RDB: PostgreSQL, MySQL の設計・パフォーマンス改善・管理
-* フロントエンド: HTML/CSS/JavaScript, Sass, Webpack、RUM ツールによる観測とパフォーマンス改善
-* データ分析基盤: Elasticsearch, Kibana, Redshift, BigQuery, Tableau
-* ネットワーク・インフラの基礎知識、オフィスネットワークの構築
-* 英語での読み書き・リスニング、技術ドキュメントの読解
+* 言語・フレームワーク: PHP, Ruby on Rails, Java/Spring, JavaScript, Golang, CakePHP
+* クラウド・基盤: AWS, GCP, Terraform, Ansible, Chef, Docker, Kubernetes, ECS
+* データストア・分析基盤: PostgreSQL, MySQL, Elasticsearch, Redshift, BigQuery, Tableau
+* フロントエンド: HTML/CSS/JavaScript, Sass, Webpack, RUM による観測・パフォーマンス改善
+* その他: ネットワーク・インフラの基礎知識、オフィスネットワーク構築、英語の読み書き・リスニング
 
 ### バックグラウンド・周辺
 
@@ -64,7 +59,7 @@ Web系企業で SRE・プラットフォームエンジニアとして、サー�
 
 業務委託として2024年6月〜2025年7月、正社員として2025年8月から現在まで勤務
 
-飲食店向け注文管理 SaaS「Camel」のテックリードとして、信頼性・デリバリー・コストを横断的に推進
+SRE のテックリードとして、飲食店向け注文管理 SaaS「Camel」の信頼性・デリバリー・コストを横断的に推進
 
 #### SREメンバー/テックリード
 
