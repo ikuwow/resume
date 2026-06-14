@@ -8,6 +8,8 @@ As of June 2026
 
 Ikuo Degawa (@ikuwow)
 
+SRE / Platform Engineer
+
 Born in 1990, lives in Kanagawa, Japan
 
 * X: https://x.com/ikuwow
@@ -17,60 +19,50 @@ Born in 1990, lives in Kanagawa, Japan
 
 The latest version of this resume is available on GitHub: https://github.com/ikuwow/resume
 
+## Summary
+
+I have worked for many years as an SRE and platform engineer at web companies, building the reliability and delivery foundations of services.
+I specialize in SLO/SLI operations on AWS, GitOps and progressive delivery, and the design, construction, and operation of microservice platforms with Kubernetes and Istio.
+Working across job roles and technical domains, I pursue holistic problem-solving that factors in technical, organizational, and cost trade-offs.
+I always act with the goals of the project or service and the value to users in mind.
+
 ## Skills
 
-* Experience in SRE and DevOps for web applications
-  * Building and maintaining CI/CD environments using CircleCI, TravisCI, GitHub Actions, etc.
-  * Designing and operating GitOps and progressive delivery using PipeCD, etc.
-  * Managing development projects using GitHub, etc.
-  * Supporting the structure of development teams and practicing Enabling SRE
-  * Solving problems across applications and promoting projects
-  * Leadership in incident response
-  * Practicing SRE principles like 50% rule, post-mortems, etc.
-  * Setting up and operating SLO/SLI and error budget policies
-  * Designing and building observability tooling using Datadog, etc.
-* Experience in building and managing infrastructure, managing middleware
-  * Basic knowledge of networking and infrastructure technology
-  * Utilizing cloud platforms like AWS, GCP
-  * Building and operating infrastructure using IaC with Terraform, Ansible, Chef, etc.
-  * Experience with Docker, Kubernetes and ECS in production environments
-  * Designing, building, and operating microservice architectures with Kubernetes and Istio
-  * Operating applications in a microservices environment
-  * Designing, improving performance, and managing RDBs like PostgreSQL, MySQL
-  * Building office networks
-* Backend development skills
-  * Experience in programming languages like PHP, Ruby, Java, JavaScript, Golang
-  * Experience with frameworks like CakePHP, Ruby on Rails, Spring
-* Frontend development skills
-  * Experience in frontend development using HTML/CSS/JavaScript
-  * Building and maintaining frontend projects with Sass, Webpack
-  * Performance monitoring and improvement
-  * Building frontend observability tooling using RUM tools
-* Others
-  * Building data analysis environments using Elasticsearch, Kibana, Redshift, BigQuery, Tableau, etc.
-  * Experience in developing iOS applications with Swift
-  * Image processing and audio processing programming with MATLAB and C
-  * Customizing CMS like WordPress
+### Core (Reliability & Delivery Platform)
+
+* SRE / DevOps practice (building and operating CI/CD environments, leadership in incident response, practices such as postmortems and the 50% rule, Enabling SRE)
+* Establishing and operating SLO/SLI and error budget policies
+* Designing and building observability tooling (Datadog, etc.)
+* Designing and operating GitOps and progressive delivery (PipeCD, Flagger, Flux, etc.)
+* Designing, building, and operating microservice architectures with Kubernetes and Istio
+* Building and operating AWS-centered cloud infrastructure
+* Developing and operating backend applications in Golang
+* Hands-on technical validation and PoC
+* Utilizing AI coding agents, and designing and introducing development processes premised on AI agents
+
+### Experience
+
+* Languages & frameworks: PHP, Ruby on Rails, Java/Spring, JavaScript, Golang, CakePHP
+* Cloud & infrastructure: AWS, GCP, Terraform, Ansible, Chef, Docker, Kubernetes, ECS
+* Datastores & analytics: PostgreSQL, MySQL, Elasticsearch, Redshift, BigQuery, Tableau
+* Frontend: HTML/CSS/JavaScript, Sass, Webpack, observability and performance improvement with RUM
+* Other: fundamentals of networking and infrastructure, office network setup, reading/writing/listening in English
+
+### Background
+
+* Image and audio processing programming with MATLAB and C
+* iOS app development with Swift
+* Customizing CMS such as WordPress
 
 <div class="page-break"></div>
-
-## Capabilities
-
-* Always acting with the project's or service's goals in mind
-* Solving problems across job roles and technical domains with overall optimization in mind, factoring in technology, organizational, and cost trade-offs
-* Conducting hands-on technical validation/PoC
-* Utilizing AI coding agents and setting up their environments
-* Designing and introducing development processes premised on AI agents
-* Smooth asynchronous communication using GitHub, documentation tools, and messaging tools
-* Valuing morals and user value
-* Reading, writing, and listening in English
-* Contributing to OSS
 
 ## Work Experience
 
 ### tacoms Inc.
 
 Worked as a contractor from June 2024 to July 2025, then as a full-time employee from August 2025 to present
+
+As the SRE tech lead, driving the reliability, delivery, and cost of the restaurant order management SaaS "Camel" across the board
 
 #### SRE Member / Tech Lead
 
@@ -103,6 +95,8 @@ Worked as a contractor from June 2024 to July 2025, then as a full-time employee
 ### ZOZO, Inc.
 
 Worked as a full-time employee from December 2021 to April 2024 in a fully remote capacity
+
+Served as a platform SRE for a large-scale EC service, and as the lead SRE for a core system replacement
 
 #### Platform Services SRE Block, Front SRE Block
 
@@ -138,12 +132,12 @@ Worked as a full-time employee from December 2021 to April 2024 in a fully remot
 * Lecturing SRE and development teams on post-replacement technologies
 * Conducting pre-release load testing
 
-<div class="page-break"></div>
-
 ### SMS Co., Ltd.
 
 Worked as a full-time employee from October 2017 to November 2021
 (Worked fully remotely from 2020)
+
+As the SRE for the elderly care management support SaaS "Kaipoke" and other services
 
 #### Development and support for an internal LP hosting service, and others
 
@@ -228,7 +222,7 @@ Worked as an intern from September 2013 to March 2015
 * Developing new iOS applications
 * Conducting seminars for student engineers
 
-## Publications
+## Writing, Talks & OSS
 
 * [tacoms tech blog](https://tacoms-inc.hatenablog.com/archive/author/ikuwow) Tech blog articles, 2024–
 * [Former tacoms tech blog](https://zenn.dev/p/tacoms) Tech blog articles
@@ -238,6 +232,7 @@ Worked as an intern from September 2013 to March 2015
 * gihyo.jp [聞いたら一生の宝，プログラミングの基礎の基礎 (Programming Fundamentals)](https://gihyo.jp/dev/serial/01/js-foundation), (3rd, 5th, 7th parts), 2015
 * Ikuo Degawa, Taichi Yoshida, Kazu Mishiba, Masaaki Ikehara, Single Image Super Resolution by l2 Approximation without Learning in International Workshop on Advanced Image Technology (IWAIT), Jan. 2014
 * Ikuo Degawa, Kei Sato, and Masaaki Ikehara, Multipitch estimation and instrument recognition by exemplar-based sparse representation, Proc. of IEEE ACSSC 2013, Pacific Grove, CA, Nov. 2013.
+* OSS contributions on [GitHub](https://github.com/ikuwow)
 
 ## Certifications
 
