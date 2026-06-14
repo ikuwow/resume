@@ -227,8 +227,6 @@ SRE のテックリードとして、飲食店向け注文管理 SaaS「Camel」
 * SoftwareDesign連載 アプリエンジニアのための［インフラ］入門 全6回 2016年
 * gihyo.jp [あとはコードを書くだけ，はじめに作る開発環境構築ベストプラクティス](https://gihyo.jp/dev/serial/01/howto-env-conf) 2016年
 * gihyo.jp [聞いたら一生の宝，プログラミングの基礎の基礎](https://gihyo.jp/dev/serial/01/js-foundation)（第3,5,7回）2015年
-* Ikuo Degawa, Taichi Yoshida, Kazu Mishiba, Masaaki Ikehara, Single Image Super Resolution by l2 Approximation without Learning in International Workshop on Advanced Image Technology (IWAIT) , Jan. 2014
-* Ikuo Degawa, Kei Sato, and Masaaki Ikehara, Multipitch estimation and instrument recognition by exemplar-based sparse representation, Proc. of IEEE ACSSC 2013, Pacific Grove, CA, Nov. 2013.
 
 ## 資格
 
