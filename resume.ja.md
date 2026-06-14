@@ -6,6 +6,8 @@
 
 Ikuo Degawa (@ikuwow)
 
+SRE / Platform Engineer
+
 1990年生まれ 神奈川県在住
 
 * X https://x.com/ikuwow
@@ -15,60 +17,54 @@ Ikuo Degawa (@ikuwow)
 
 この職務経歴書の最新版はGitHubにあります: https://github.com/ikuwow/resume
 
-## 技術
+## 概要
 
-* WebアプリケーションにおけるSRE, DevOpsの経験
-  * CircleCI, TravisCI, GitHub Actions等を用いたCI/CD環境の構築、メンテナンス
-  * PipeCD等を用いたGitOps・プログレッシブデリバリーの設計・運用
-  * GitHub等を用いた開発プロジェクトの管理
-  * 開発チームの体制サポート、Enabling SREの実践
-  * アプリケーションをまたいだ問題解決とプロジェクト推進
-  * 障害対応におけるリーダーシップ
-  * 50%ルール、ポストモーテム等のSREプラクティスの実施
-  * SLO/SLI, エラーバジェットポリシーの整備と運用
-  * Datadog等を用いた可観測性のための仕組みの設計・構築
-* インフラの構築管理、ミドルウェアの管理の経験
-  * ネットワークやインフラ技術の基礎的な知識
-  * AWS, GCP等のクラウドプラットフォームの活用
-  * Terraform、Ansible、Chef等を使ったIaCによる構成管理の環境の構築、運用
-  * 本番環境におけるDocker, Kubernetes, ECSの経験
-  * Kubernetes・Istioを使ったマイクロサービスアーキテクチャの設計・構築・運用
-  * マイクロサービス環境でのアプリケーションの運用
-  * PostgreSQL, MySQL等のRDBの設計、パフォーマンス改善、管理
-  * オフィスネットワーク構築
-* バックエンド開発の能力
-  * PHP, Ruby, Java, JavaScript, Golang等のプログラミング言語の経験
-  * CakePHP, Ruby on Rails, Spring等のフレームワークの経験
-* フロントエンド開発の能力
-  * HTML/CSS/JavaScriptを使ったフロントエンド開発の経験
-  * Sass, Webpackを使ったフロントエンドプロジェクトの構築、メンテナンス
-  * パフォーマンスモニタリングと改善
-  * RUMツールを用いたフロントエンド観測の仕組みの構築
-* その他
-  * Elasticsearch, Kibana, Redshift, BigQuery, Tableau等を使ったデータ分析環境の構築
-  * SwiftによるiOSアプリの開発経験
-  * MATLABとC言語による画像処理・音声処理プログラミング
-  * WordPress等CMSのカスタマイズ
+Web系企業で SRE・プラットフォームエンジニアとして、サービスの信頼性とデリバリー基盤づくりに長く携わってきました。AWS を基盤とした SLO/SLI 運用、GitOps・プログレッシブデリバリー、Kubernetes・Istio によるマイクロサービス基盤の設計・構築・運用を得意としています。職種や技術領域をまたいで、技術・組織・コストのトレードオフを踏まえた全体最適な問題解決に取り組み、常にプロジェクトやサービスの目的とユーザーへの価値を見据えて行動することを大切にしています。GitHub やドキュメンテーション・メッセージングツールを活用した非同期コミュニケーションを基本としています。現在は飲食店向け SaaS「Camel」のテックリードとして、信頼性・デリバリー・コストを横断的に推進しています。
+
+## スキル
+
+習熟度の高い順に記載しています。
+
+### コア（信頼性・デリバリー基盤）
+
+* SRE / DevOps の実践（CI/CD 環境の構築・運用、障害対応のリーダーシップ、ポストモーテムや50%ルール等のプラクティス、Enabling SRE）
+* SLO/SLI・エラーバジェットポリシーの整備と運用
+* 可観測性のための仕組みの設計・構築（Datadog 等）
+* GitOps・プログレッシブデリバリーの設計・運用（PipeCD, Flagger, Flux 等）
+* Kubernetes・Istio によるマイクロサービスアーキテクチャの設計・構築・運用
+* AWS を中心としたクラウドインフラの構築・運用
+* Golang によるバックエンドアプリケーションの開発・運用
+* 手を動かした技術検証・PoC
+* AIコーディングエージェントの活用、およびAIエージェントを前提とした開発プロセスの設計・導入
+
+### 実務経験
+
+* プログラミング言語: PHP, Ruby, Java, JavaScript, Golang
+* フレームワーク: CakePHP, Ruby on Rails, Spring
+* IaC・構成管理: Terraform, Ansible, Chef
+* コンテナ・オーケストレーション: Docker, Kubernetes, ECS
+* クラウド: AWS, GCP
+* RDB: PostgreSQL, MySQL の設計・パフォーマンス改善・管理
+* フロントエンド: HTML/CSS/JavaScript, Sass, Webpack、RUM ツールによる観測とパフォーマンス改善
+* データ分析基盤: Elasticsearch, Kibana, Redshift, BigQuery, Tableau
+* ネットワーク・インフラの基礎知識、オフィスネットワークの構築
+* 英語での読み書き・リスニング、技術ドキュメントの読解
+
+### バックグラウンド・周辺
+
+* MATLAB・C 言語による画像処理・音声処理プログラミング
+* Swift による iOS アプリの開発
+* WordPress 等 CMS のカスタマイズ
 
 <div class="page-break"></div>
-
-## できること
-
-* 常にプロジェクトやサービスの目的を見据えて行動する
-* 職種や技術領域をまたいだ、技術・組織・コストのトレードオフを踏まえた全体最適な問題解決
-* 手を動かして技術検証/PoCができる
-* AIコーディングエージェントの活用、環境整備
-* AIエージェントを前提とした開発プロセスの設計と導入
-* GitHubやドキュメンテーションツール、メッセージングツールによるスムーズな非同期コミュニケーション
-* モラルとユーザーへの価値を大事にする
-* 英語の読み書き、リスニング
-* OSSへの貢献
 
 ## 職務経歴
 
 ### 株式会社tacoms
 
 業務委託として2024年6月〜2025年7月、正社員として2025年8月から現在まで勤務
+
+飲食店向け注文管理 SaaS「Camel」のテックリードとして、信頼性・デリバリー・コストを横断的に推進
 
 #### SREメンバー/テックリード
 
@@ -101,6 +97,8 @@ Ikuo Degawa (@ikuwow)
 ### 株式会社ZOZO
 
 正社員として2021年12月〜2024年4月の間フルリモートで勤務
+
+大規模ECのプラットフォームSRE、および基幹システムリプレイスのリードSREを担当
 
 #### プラットフォームサービスSREブロック, Front SREブロック
 
@@ -140,6 +138,8 @@ Ikuo Degawa (@ikuwow)
 
 正社員として2017年10月〜2021年11月の間勤務
 （2020年よりフルリモート勤務）
+
+介護経営支援 SaaS「カイポケ」をはじめとする複数サービスの SRE を担当
 
 #### 社内向けLPホスティングサービスの開発、サポートほか
 
@@ -224,7 +224,7 @@ Ikuo Degawa (@ikuwow)
 * iOSアプリの新規開発
 * 学生エンジニア向けセミナー講師
 
-## 執筆
+## 執筆・発表・OSS
 
 * [tacoms テックブログ](https://tacoms-inc.hatenablog.com/archive/author/ikuwow) テックブログ執筆 2024年〜
 * [旧tacoms テックブログ](https://zenn.dev/p/tacoms) テックブログ執筆
@@ -234,6 +234,7 @@ Ikuo Degawa (@ikuwow)
 * gihyo.jp [聞いたら一生の宝，プログラミングの基礎の基礎](https://gihyo.jp/dev/serial/01/js-foundation)（第3,5,7回）2015年
 * Ikuo Degawa, Taichi Yoshida, Kazu Mishiba, Masaaki Ikehara, Single Image Super Resolution by l2 Approximation without Learning in International Workshop on Advanced Image Technology (IWAIT) , Jan. 2014
 * Ikuo Degawa, Kei Sato, and Masaaki Ikehara, Multipitch estimation and instrument recognition by exemplar-based sparse representation, Proc. of IEEE ACSSC 2013, Pacific Grove, CA, Nov. 2013.
+* [GitHub](https://github.com/ikuwow) 上での OSS へのコントリビュート
 
 ## 資格
 
